@@ -35,6 +35,7 @@ jekyll 테마 사이트 : <a href="https://jekyllthemes.io/free"> https://jekyll
 Download ZIP를 누르고 파일을 다운받은 다음, 폴더와 파일을 드래그해서 내 레파지토리에 업로드하면 될 것 같지만... 안 된다. 무한 로딩의 늪에 빠지게 된다.
 <strong> 따라서 Download ZIP를 누르고 파일을 다운받은 파일을 터미널을 이용해 내 레파지토리에 업로드 해야 한다. </strong>
 <br>
+<br>
 
 ### 1. 새로운 레파지토리(Repository)를 만든다. - New 버튼 클릭
 
