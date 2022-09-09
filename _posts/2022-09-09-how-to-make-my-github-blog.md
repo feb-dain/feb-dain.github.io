@@ -82,6 +82,8 @@ cd 폴더명 (다운 받고 싶은 위치)
 git clone 복사한 HTTPS 주소
 ````
 
+<br>
+
 ### 5. 폴더 열고 확인차 파일 생성하기
 
 ![image](https://user-images.githubusercontent.com/108778921/189270243-521a2b5c-fbfa-4684-9100-ace94003e586.png)
@@ -97,6 +99,8 @@ echo "GitHub Blog" > index.html
 
 짠! index.html 파일 하나가 성공적으로 생성됐다! 그럼 잘 연결된 것이다 👏
 
+<br>
+
 ### 6. 내 레파지토리에 PUSH
 
 ````
@@ -110,6 +114,8 @@ git push -u origin main
 
 성공적으로 연결됐으면 내 레파지토리에 index.html 파일도 생성된 것을 확인할 수 있다.<br>
 이제 "username.github.io"을 주소창에 치면? "GitHub Blog" 글자가 나타난다.
+
+<br>
 
 ### 7. Ruby 다운로드
 https://rubyinstaller.org/downloads/
