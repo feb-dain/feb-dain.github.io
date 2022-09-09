@@ -74,7 +74,5 @@ Public, Add a README file 선택하고 생성!
 
 👇<br>
 
-`
-git clone 복사한 HTTPS 주소
-`
+`git clone 복사한 HTTPS 주소`
 
