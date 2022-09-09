@@ -83,7 +83,7 @@ git clone 복사한 HTTPS 주소
 
 <br>
 
-### 5. 폴더 열고 확인차 파일 생성하기
+### 5. 폴더(username.github.io) 열고 확인차 파일 생성하기
 
 ![image](https://user-images.githubusercontent.com/108778921/189270243-521a2b5c-fbfa-4684-9100-ace94003e586.png)
 
@@ -100,11 +100,11 @@ echo "GitHub Blog" > index.html
 
 <br>
 
-### 6. 내 레파지토리에 PUSH
+### 6. 내 깃허브 레파지토리에 PUSH
 
 ````
 git add --all
-git commit -m "Commit!"
+git commit -m "commit!"
 git push -u origin main
 ````
 <b>결과</b>
@@ -120,3 +120,58 @@ git push -u origin main
 https://rubyinstaller.org/downloads/
 
 ![image](https://user-images.githubusercontent.com/108778921/189272898-7b0fb8d8-b32c-423f-8d7e-e99ae7e8867e.png)
+
+두꺼운 글씨로 표시된 ' Ruby+Devkit 3.1.2-1 (x64) ' 선택해서 다운로드.<br>
+Next를 계속 누르다보면 다운로드 완료. 그러면 다운로드가 완료됐다는 것을 알리는 CMD 창이 뜨면 닫기(x) 버튼을 누르면 된다.
+
+터미널에
+````
+ruby -v
+````
+입력하면 다운로드한 ruby 버전을 확인할 수 있다.
+
+### 8. Jekyll 설치
+````
+gem install jekyll bundler
+````
+
+설치가 완료되면 아까 만든 폴더(username.github.io)에 들어가서 README 파일과 index.html 파일 모두 지워준다.
+그리고 터미널에서 위의 폴더로 경로를 바꿔준다.
+````
+cd username.github.io
+````
+
+<br>
+그러면 이런 식으로 경로가 바뀐다.<br>
+<b> ~/username.github.io> </b>
+<br>
+<br>
+여기에 <strong> jekyll new ./ </strong> 입력.
+
+````
+username.github.io>jekyll new ./
+````
+
+⚠ 아까 폴더 안에 .git 폴더를 제외한 README 파일과 index.html 파일을 지우지 않았다면 오류가 뜨니 <strong>폴더 안의 파일을 모두 지워야 한다!</strong>
+<br>
+<br>
+
+### 9. bundle 설치
+````
+bundle install
+bundle exec jekyll serve --trace
+````
+
+Server address: http://127.0.0.1:4000/ 가 뜨면 주소창에 한 번 입력해보자. 기본 jekyll 페이지가 뜬다.<br>
+파란 글자로 Welcome to Jekyll!이 뜰 것.
+<br>
+<br>
+
+### 10. 내 깃허브 레파지토리에 PUSH
+````
+git add .
+git commit -m "ommit! (원하는 메시지로 설정할 수 있음)"
+git push
+````
+![image](https://user-images.githubusercontent.com/108778921/189280302-ad6e0325-3f54-4bc9-b39c-6ac7012d8213.png)
+메시지는 여기에 이렇게 뜬다.
