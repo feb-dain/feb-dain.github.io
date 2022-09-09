@@ -18,7 +18,7 @@ user.email이 일치하지 않거나 user.name이 일치하지 않으면 이런 
 
 <br>
 
->❗ 번외) 잔디와 상관없이 편하게 깃허브 블로그를 사용하고, jekyll 테마를 사용하려면
+>❗ [번외] 잔디와 상관없이 편하게 깃허브 블로그를 사용하고, jekyll 테마를 사용하려면
 원하는 jekyll 테마의 깃허브로 가서 Fork를 눌러 내 레파지토리에 들고온 뒤, 
 레파지토리 이름(Repository name)을 원하는 것으로 바꾸면 된다. (변경은 Settings>General>Repository name을 바꾸고 rename을 누르면 된다.) 
 보통은 "user name.github.io"로 이름을 설정하는 듯하다.
