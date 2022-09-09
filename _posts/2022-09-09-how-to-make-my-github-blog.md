@@ -74,5 +74,29 @@ Public, Add a README file 선택하고 생성!
 
 👇<br>
 
-`git clone 복사한 HTTPS 주소`
+````
+git clone 복사한 HTTPS 주소
+````
 
+### 5. 폴더 열고 확인차 파일 생성하기
+
+![image](https://user-images.githubusercontent.com/108778921/189270243-521a2b5c-fbfa-4684-9100-ace94003e586.png)
+
+아직은 README 파일만 있는데, 여기에 확인차 파일을 하나 만들어보자.
+
+````
+cd username.github.io
+echo "GitHub Blog" > index.html
+````
+
+![image](https://user-images.githubusercontent.com/108778921/189270622-4f78e0fe-4dac-45b9-a8b4-67d81b276377.png)
+
+짠! index.html 파일 하나가 성공적으로 생성됐다! 그럼 잘 연결된 것이다 👏
+
+### 6. 내 레파지토리에 PUSH
+
+````
+git add --all
+git commit -m "Commit!"
+git push -u origin main
+````
