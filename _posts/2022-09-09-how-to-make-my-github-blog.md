@@ -161,6 +161,10 @@ username.github.io>jekyll new ./
 bundle install
 bundle exec jekyll serve --trace
 ````
+⚠ 오류(Webrick LoadError) 발생 하면
+````
+bundle add webrick
+````
 
 Server address: http://127.0.0.1:4000/ 가 뜨면 주소창에 한 번 입력해보자. 기본 jekyll 페이지가 뜬다.<br>
 파란 글자로 <span style="color:skyblue">Welcome to Jekyll!</span>이 뜰 것.
@@ -185,6 +189,10 @@ git push
 ````
 bundle install
 bundle exec jekyll serve --trace
+````
+⚠ 오류(Webrick LoadError) 발생 하면
+````
+bundle add webrick
 ````
 <br>
 <br>
