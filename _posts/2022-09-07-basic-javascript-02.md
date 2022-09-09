@@ -187,7 +187,7 @@ for문은 간결해서 가독성이 좋음
   }
   
   for(var i=0; i<=4; i++){
-      document.write("for문 반복 횟수 : "+i+"번<br>"); /* for문 반복 횟수 : 5번 */
+      document.write("for문 반복 횟수 : "+i+"번<br>");    /* for문 반복 횟수 : 5번 */
   }
 
 ````
