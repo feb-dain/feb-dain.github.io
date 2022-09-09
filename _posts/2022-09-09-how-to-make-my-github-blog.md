@@ -95,6 +95,7 @@ echo "GitHub Blog" > index.html
 ````
 
 ![image](https://user-images.githubusercontent.com/108778921/189270622-4f78e0fe-4dac-45b9-a8b4-67d81b276377.png)
+
 짠! index.html 파일 하나가 성공적으로 생성됐다! 그럼 잘 연결된 것이다 👏
 
 <br>
