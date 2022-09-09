@@ -129,7 +129,7 @@ git push -u origin main --force
 ![image](https://user-images.githubusercontent.com/108778921/189272898-7b0fb8d8-b32c-423f-8d7e-e99ae7e8867e.png)
 
 두꺼운 글씨로 표시된 ' Ruby+Devkit 3.1.2-1 (x64) ' 선택해서 다운로드.<br>
-Next를 계속 누르다보면 다운로드 완료. 그러면 다운로드가 완료됐다는 것을 알리는 CMD 창이 뜨면 닫기(x) 버튼을 누르면 된다.
+Next를 계속 누르다보면 다운로드 완료. 다운로드가 완료됐다는 것을 알리는 CMD 창이 뜨면 닫기(x) 버튼을 누르면 된다.
 
 터미널에
 ````
