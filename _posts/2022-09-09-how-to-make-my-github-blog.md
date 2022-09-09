@@ -216,7 +216,7 @@ git add --all
 git commit -m "commit!(원하는 커밋 메시지)"
 git push 
 ````
-⛔ <b>Conflict: The following destination is shared by multiple files. The written file may end up with unexpected contents.</b> 오류 발생했을 경우,<br>
+⛔ <b>Conflict: The following destination is shared by multiple files. The written file may end up with unexpected contents.</b> 오류 발생했을 경우, 
 index. html 파일(내가 다운받은 jekyll 테마 파일)과 index.markdown 파일(기본 jekyll 파일)이 같이 있어서 그렇다.<br>
 필요 없는 <b>index.markdown 파일을 삭제</b>해주면 해결된다.<br>
 <br>
