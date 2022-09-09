@@ -124,7 +124,7 @@ git push -u origin main --force
 <br>
 
 ### 7. Ruby 다운로드 (for Windows)
-https://rubyinstaller.org/downloads/
+<a href="https://rubyinstaller.org/downloads/" target="_blank"> https://rubyinstaller.org/downloads/ <a>
 
 ![image](https://user-images.githubusercontent.com/108778921/189272898-7b0fb8d8-b32c-423f-8d7e-e99ae7e8867e.png)
 
