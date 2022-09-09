@@ -163,7 +163,7 @@ bundle exec jekyll serve --trace
 ````
 
 Server address: http://127.0.0.1:4000/ 가 뜨면 주소창에 한 번 입력해보자. 기본 jekyll 페이지가 뜬다.<br>
-파란 글자로 Welcome to Jekyll!이 뜰 것.
+파란 글자로 <span style="color:skyblue">Welcome to Jekyll!</span>이 뜰 것.
 <br>
 <br>
 
@@ -175,3 +175,16 @@ git push
 ````
 ![image](https://user-images.githubusercontent.com/108778921/189280302-ad6e0325-3f54-4bc9-b39c-6ac7012d8213.png)
 커밋 메시지는 여기에 이렇게 뜬다.
+<br>
+<br>
+
+### 11. 맨 처음 다운 받은 Jekyll 테마 적용
+맨 처음에 다운 받은 jekyll 테마 알집(ZIP) 파일을 풀고, 안에 있는 폴더와 파일을 username.github.io 폴더에 복사 또는 이동시켜준다.
+같은 이름을 가진 파일이 이미 있다고 경고창이 뜰텐데 그냥 덮어쓰기하면 된다.
+
+````
+bundle install
+bundle exec jekyll serve --trace
+````
+
+끝!
