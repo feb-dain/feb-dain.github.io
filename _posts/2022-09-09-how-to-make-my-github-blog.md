@@ -208,7 +208,6 @@ bundle exec jekyll serve --trace
 bundle add webrick
 ````
 <br>
-<br>
 
 ### 12. 내 깃허브 레파지토리에 PUSH
 
