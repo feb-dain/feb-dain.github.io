@@ -28,7 +28,7 @@ layout: post
 ![image](https://user-images.githubusercontent.com/108778921/189338012-08e57d63-9b34-4e09-aca1-5aa8f2bfac90.png)
 
 #### 3) 복사한 Utterances 스크립트를 원하는 위치에 붙여 넣으면 끝! 
-보통 {{ content }} 아래에 붙여 넣으면 된다.
+`보통 " { content }" 아래에 붙여 넣으면 된다.`
 
 <br>
 
