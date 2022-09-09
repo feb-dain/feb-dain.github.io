@@ -53,8 +53,25 @@ Download ZIP를 누르고 파일을 다운받은 다음, 폴더와 파일을 드
 
 Public, Add a README file 선택하고 생성!
 
+<br>
 
 ### 3. 내 레파지토리 HTTPS 복사하기
 
 ![image](https://user-images.githubusercontent.com/108778921/189267549-77d62e8a-c64a-4067-955c-590317581ae9.png)
+
+<br>
+
+### 4. 터미널을 열고 복사한 레파지토리 폴더를 만들고 싶은 경로로 이동
+>Windows : Windows 키 + R -> cmd 검색<br>
+>Mac : Command(⌘) + F로 'terminal'을 검색<br>
+
+👇<br>
+
+경로 이동<br> (생략 가능, 어디에 다운로드 하는지만 알고 있으면 된다.)
+
+👇<br>
+
+`
+git clone 복사한 HTTPS 주소
+`
 
