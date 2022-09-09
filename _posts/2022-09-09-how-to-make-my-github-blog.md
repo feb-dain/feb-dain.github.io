@@ -3,7 +3,6 @@ title:  "깃허브 블로그 만들고 jekyll 테마 적용하기"
 layout: post
 ---
 <br>
-<br>
 
 ## 0. 사건의 발단
 
@@ -117,5 +116,7 @@ git push -u origin main
 
 <br>
 
-### 7. Ruby 다운로드
+### 7. Ruby 다운로드 (for Windows)
 https://rubyinstaller.org/downloads/
+
+![image](https://user-images.githubusercontent.com/108778921/189272898-7b0fb8d8-b32c-423f-8d7e-e99ae7e8867e.png)
