@@ -168,7 +168,7 @@ username.github.io>jekyll new ./
 bundle install
 bundle exec jekyll serve --trace
 ````
-⚠ <b>오류(Webrick LoadError)</b> 발생 하면
+⚠ <b>오류(Webrick LoadError)</b> 발생하면
 ````
 bundle add webrick
 ````
@@ -197,7 +197,7 @@ git push
 bundle install
 bundle exec jekyll serve --trace
 ````
-⚠ 오류(Webrick LoadError) 발생 하면
+⚠ <b>오류(Webrick LoadError)</b> 발생하면
 ````
 bundle add webrick
 ````
