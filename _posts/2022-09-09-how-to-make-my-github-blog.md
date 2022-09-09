@@ -107,6 +107,13 @@ git add --all
 git commit -m "commit!"
 git push -u origin main
 ````
+⚠ <b>! [rejected] main -> main (fetch first) error: failed to push some refs to</b> 에러가 발생한 경우, 
+```
+git push -u origin main --force
+```
+강제로 실행시키면 된다.
+<br>
+<br>
 <b>결과</b>
 
 ![image](https://user-images.githubusercontent.com/108778921/189271262-170826b4-f5de-47c7-854c-4b90b0a865cb.png)
@@ -161,7 +168,7 @@ username.github.io>jekyll new ./
 bundle install
 bundle exec jekyll serve --trace
 ````
-⚠ 오류(Webrick LoadError) 발생 하면
+⚠ <b>오류(Webrick LoadError)</b> 발생 하면
 ````
 bundle add webrick
 ````
@@ -204,5 +211,10 @@ git add --all
 git commit -m "commit!(원하는 커밋 메시지)"
 git push 
 ````
+⚠ <b>Conflict: The following destination is shared by multiple files. The written file may end up with unexpected contents.</b> 오류 발생했을 경우,<br>
+index. html 파일(내가 다운받은 jekyll 테마 파일)과 index.markdown 파일(기본 jekyll 파일)이 같이 있어서 그렇다.<br>
+필요 없는 <b>index.markdown 파일을 삭제</b>해주면 해결된다.<br>
+<br>
+
 
 # 끝!
