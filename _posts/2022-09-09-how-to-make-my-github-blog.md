@@ -186,5 +186,15 @@ git push
 bundle install
 bundle exec jekyll serve --trace
 ````
+<br>
+<br>
 
-끝!
+### 12. 내 깃허브 레파지토리에 PUSH
+
+````
+git add --all
+git commit -m "commit!(원하는 커밋 메시지)"
+git push 
+````
+
+# 끝!
