@@ -1,5 +1,5 @@
 ---
-title:  "깃허브 블로그에 jekyll 테마 적용하기"
+title:  "깃허브 블로그 만들고 jekyll 테마 적용하기"
 layout: post
 ---
 <br>
