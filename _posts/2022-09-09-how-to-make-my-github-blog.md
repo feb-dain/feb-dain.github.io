@@ -14,7 +14,6 @@ user.email이 일치하지 않거나 user.name이 일치하지 않으면 이런 
 <br>
 
 ![image](https://user-images.githubusercontent.com/108778921/189262551-8ae4ebba-cc8d-4f3a-9350-e19577a426db.png)
-
 <br>
 
 >❗ [번외] 잔디와 상관없이 편하게 깃허브 블로그를 사용하고, jekyll 테마를 사용하려면
