@@ -178,7 +178,8 @@ bundle add webrick
 gem install webrick
 ````
 <br>
-오류 없이 성공적으로 진행되어 Server address: http://127.0.0.1:4000/ 가 뜨면 주소창에 http://127.0.0.1:4000/를 입력해보자.<br>
+오류 없이 성공적으로 진행되어 Server address: http://127.0.0.1:4000/ 가 뜨면<br>
+주소창에 http://127.0.0.1:4000/를 입력해보자.<br>
 기본 jekyll 페이지가 뜬다. 파란 글자로 <span style="color:skyblue">Welcome to Jekyll!</span>이 뜰 것.
 <br>
 <br>
@@ -222,4 +223,4 @@ index. html 파일(내가 다운받은 jekyll 테마 파일)과 index.markdown �
 <br>
 
 
-# 끝!
+# 끝! 👏👏
