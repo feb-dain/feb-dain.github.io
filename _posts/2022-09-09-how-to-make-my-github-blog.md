@@ -100,3 +100,8 @@ git add --all
 git commit -m "Commit!"
 git push -u origin main
 ````
+<b>결과</b>
+
+![image](https://user-images.githubusercontent.com/108778921/189271262-170826b4-f5de-47c7-854c-4b90b0a865cb.png)
+
+성공적으로 연결됐으면 내 레파지토리에 index.html 파일도 생성된 것을 확인할 수 있다.
