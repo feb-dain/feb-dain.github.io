@@ -170,7 +170,7 @@ Server address: http://127.0.0.1:4000/ 가 뜨면 주소창에 한 번 입력해
 ### 10. 내 깃허브 레파지토리에 PUSH
 ````
 git add .
-git commit -m "ommit! (원하는 메시지로 설정할 수 있음)"
+git commit -m "commit! (원하는 메시지로 설정할 수 있음)"
 git push
 ````
 ![image](https://user-images.githubusercontent.com/108778921/189280302-ad6e0325-3f54-4bc9-b39c-6ac7012d8213.png)
