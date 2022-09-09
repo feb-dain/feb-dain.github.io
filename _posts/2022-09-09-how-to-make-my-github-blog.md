@@ -169,11 +169,11 @@ username.github.io>jekyll new ./
 bundle install
 bundle exec jekyll serve --trace
 ````
-⛔ <b>오류(Webrick LoadError)</b> 발생하면
+⛔ <b>Webrick LoadError</b> 에러가 발생하면
 ````
 bundle add webrick
 ````
-⛔ <b>Could not find gem 'webric x64-mingw32'</b> 발생하면
+⛔ <b>Could not find gem 'webric x64-mingw32'</b> 에러가 발생하면
 ````
 gem install webrick
 ````
