@@ -28,6 +28,7 @@ layout: post
   </script>
  ````
 <br>
+
 ❗ 터미널없이 쉽게 하는 법
 #### 1) 깃허브 블로그 레파지토리의 post.html 파일 클릭
 #### 2) 파일 편집(Edit this file) 클릭
