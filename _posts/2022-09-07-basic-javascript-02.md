@@ -179,16 +179,16 @@ for문은 간결해서 가독성이 좋음
         
 ````
 
-### 4.for문
+### 4. for문
 ````
-[형식]
-  for(초깃값;조건식;증감식){
-      실행문;
-  }
-  
-  for(var i=0; i<=4; i++){
-      document.write("for문 반복 횟수 : "+i+"번<br>");    /* for문 반복 횟수 : 5번 */
-  }
+        [형식]
+        for(초깃값;조건식;증감식){
+            실행문;
+        }
+
+        for(var i=0; i<=4; i++){
+            document.write("for문 반복 횟수 : "+i+"번<br>");    /* for문 반복 횟수 : 5번 */
+        }
 
 ````
 
@@ -197,4 +197,49 @@ for문은 간결해서 가독성이 좋음
       for(var i=0; i<10 ; i++){
             document.write("img"+i+".jpg")
       }
+````
+
+#### 예시를 통해 for문을 이해해보자.
+````
+      // 1부터 10까지의 합 구하기.
+      
+      var i=0;
+      var sum=0;
+      for(i=1;i<=10;i++){
+           sum += i;
+      }
+      
+       // 브라우저에 <h1>~<h6>순으로 "코딩" 출력
+       
+       var i=0;
+       for(i=1;i<=6;i++){
+           document.write("<h"+i+"> 코딩 </h"+i+">");
+       }
+       
+       // 역순
+       
+       var i=0;
+       for(i=6;i>=1;i--){
+           document.write("<h"+i+"> 코딩 </h"+i+">");
+       }
+       
+       // <h3>만 출력
+       
+       var i=0;
+       for(i=6;i>=1;i--){
+           if(i===3){
+               document.write("<h"+i+"> 코딩 </h"+i+">");
+            }
+````
+
+### 5. 이중 for문 (안쪽 for문 먼저 실행 후, 바깥쪽 for문 실행)
+구구단 2단부터 9단까지
+````
+        var i,j;
+        for(i=2;i<=9;i++){
+            document.write("<h1>"+i+"단</h1>");
+            for(j=1;j<=9;j++){
+                document.write(i+"X"+j+"="+i*j+"<br>");
+            }
+        }
 ````
