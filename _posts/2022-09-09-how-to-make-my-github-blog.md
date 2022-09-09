@@ -149,7 +149,6 @@ gem install jekyll bundler
 ````
 cd username.github.io
 ````
-
 <br>
 그러면 이런 식으로 경로가 바뀐다.<br>
 <b> ~/username.github.io> </b>
