@@ -6,8 +6,7 @@ layout: post
 
 ### 1. 깃허브 블로그 댓글 기능 추가 (Utterances)
 참고 : 
-<a href="https://velog.io/@outstandingboy/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EB%8C%93%EA%B8%80-%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0-ft.-Utterances"> 
-  https://velog.io/@outstandingboy/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EB%8C%93%EA%B8%80-%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0-ft.-Utterances </a>
+<a href="https://velog.io/@outstandingboy/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EB%8C%93%EA%B8%80-%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0-ft.-Utterances"> elog </a>
 <br>자세하게 잘 정리되어 있다. 덕분에 쉽게 댓글 기능을 추가할 수 있었다.
 
 ❗ 만약 깃허브에서 유저 이름과 레파지토리 이름을 복사해왔다면 Repo 부분에 띄어쓰기가 되어 있는지 확인해보자. 띄어쓰기가 있으면 404 error가 뜬다.
