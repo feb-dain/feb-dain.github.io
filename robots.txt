@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://feb-dain.github.io/sitemap.xml
