@@ -172,8 +172,13 @@ bundle exec jekyll serve --trace
 ````
 bundle add webrick
 ````
-
-Server address: http://127.0.0.1:4000/ 가 뜨면 주소창에 한 번 입력해보자. 기본 jekyll 페이지가 뜬다.<br>
+⚠ <b>Could not find gem 'webric x64-mingw32'</b> 발생하면
+````
+gem install webrick
+````
+<br>
+<br>
+오류 없이 성공적으로 진행되어 Server address: http://127.0.0.1:4000/ 가 뜨면 주소창에 한 번 입력해보자. 기본 jekyll 페이지가 뜬다.<br>
 파란 글자로 <span style="color:skyblue">Welcome to Jekyll!</span>이 뜰 것.
 <br>
 <br>
