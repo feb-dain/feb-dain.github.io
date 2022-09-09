@@ -95,7 +95,6 @@ echo "GitHub Blog" > index.html
 ````
 
 ![image](https://user-images.githubusercontent.com/108778921/189270622-4f78e0fe-4dac-45b9-a8b4-67d81b276377.png)
-
 짠! index.html 파일 하나가 성공적으로 생성됐다! 그럼 잘 연결된 것이다 👏
 
 <br>
@@ -107,7 +106,7 @@ git add --all
 git commit -m "commit!"
 git push -u origin main
 ````
-⚠ <b>! [rejected] main -> main (fetch first) error: failed to push some refs to</b> 에러가 발생한 경우, 
+⛔ <b>! [rejected] main -> main (fetch first) error: failed to push some refs to</b> 에러가 발생한 경우, 
 ```
 git push -u origin main --force
 ```
@@ -159,7 +158,7 @@ cd username.github.io
 username.github.io>jekyll new ./
 ````
 
-⚠ 아까 폴더 안에 .git 폴더를 제외한 README 파일과 index.html 파일을 지우지 않았다면 오류가 뜨니 <strong>폴더 안의 파일을 모두 지워야 한다!</strong>
+⛔ 아까 폴더 안에 .git 폴더를 제외한 README 파일과 index.html 파일을 지우지 않았다면 오류가 뜨니 <strong>폴더 안의 파일을 모두 지워야 한다!</strong>
 <br>
 <br>
 
@@ -168,11 +167,11 @@ username.github.io>jekyll new ./
 bundle install
 bundle exec jekyll serve --trace
 ````
-⚠ <b>오류(Webrick LoadError)</b> 발생하면
+⛔ <b>오류(Webrick LoadError)</b> 발생하면
 ````
 bundle add webrick
 ````
-⚠ <b>Could not find gem 'webric x64-mingw32'</b> 발생하면
+⛔ <b>Could not find gem 'webric x64-mingw32'</b> 발생하면
 ````
 gem install webrick
 ````
@@ -201,7 +200,7 @@ git push
 bundle install
 bundle exec jekyll serve --trace
 ````
-⚠ <b>오류(Webrick LoadError)</b> 발생하면
+⛔ <b>오류(Webrick LoadError)</b> 발생하면
 ````
 bundle add webrick
 ````
@@ -215,7 +214,7 @@ git add --all
 git commit -m "commit!(원하는 커밋 메시지)"
 git push 
 ````
-⚠ <b>Conflict: The following destination is shared by multiple files. The written file may end up with unexpected contents.</b> 오류 발생했을 경우,<br>
+⛔ <b>Conflict: The following destination is shared by multiple files. The written file may end up with unexpected contents.</b> 오류 발생했을 경우,<br>
 index. html 파일(내가 다운받은 jekyll 테마 파일)과 index.markdown 파일(기본 jekyll 파일)이 같이 있어서 그렇다.<br>
 필요 없는 <b>index.markdown 파일을 삭제</b>해주면 해결된다.<br>
 <br>
