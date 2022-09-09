@@ -104,5 +104,5 @@ git push -u origin main
 
 ![image](https://user-images.githubusercontent.com/108778921/189271262-170826b4-f5de-47c7-854c-4b90b0a865cb.png)
 
-성공적으로 연결됐으면 내 레파지토리에 index.html 파일도 생성된 것을 확인할 수 있다.
-이제 "username.github.io"을 주소창에 치면? GitHub Blog 글자가 나타난다.
+성공적으로 연결됐으면 내 레파지토리에 index.html 파일도 생성된 것을 확인할 수 있다.<br>
+이제 "username.github.io"을 주소창에 치면? "GitHub Blog" 글자가 나타난다.
