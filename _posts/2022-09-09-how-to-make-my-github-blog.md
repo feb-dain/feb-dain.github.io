@@ -12,8 +12,11 @@ layout: post
 user.email이 일치하지 않거나 user.name이 일치하지 않으면 이런 문제가 발생할 수 있다고 한다. 하지만 나의 원인은 이게 아니었다.
 <strong> jekyll 테마 깃허브에서 Fork를 눌러 그냥 복사해왔기 때문이었다. </strong> Fork한 레파지토리는 아무리 커밋해도 잔디가 심어지지 않는다고...
 
+<br>
+
 ![image](https://user-images.githubusercontent.com/108778921/189262551-8ae4ebba-cc8d-4f3a-9350-e19577a426db.png)
 
+<br>
 
 >❗ 번외) 잔디와 상관없이 편하게 깃허브 블로그를 사용하고, jekyll 테마를 사용하려면
 원하는 jekyll 테마의 깃허브로 가서 Fork를 눌러 내 레파지토리에 들고온 뒤, 
