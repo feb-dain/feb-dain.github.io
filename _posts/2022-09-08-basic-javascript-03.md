@@ -82,7 +82,7 @@ layout: post
         function cal(num){
             sum = num + ten;
             mul = num * ten;
-            return mul; //첫번째 return을 만나면 빠져나온다. top-down 적용 안 됨
+            return mul;    //첫번째 return을 만나면 빠져나온다. top-down 적용 안 됨
             return sum;
         }
         document.write(cal(100));    /* 1000 */
