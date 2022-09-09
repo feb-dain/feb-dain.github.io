@@ -41,6 +41,7 @@ layout: post
 <a href="http://jinyongjeong.github.io/2017/01/13/blog_make_searched/"> http://jinyongjeong.github.io/2017/01/13/blog_make_searched/ </a><br>
 깔끔하게 잘 정리되어 있어 쉽게 검색 엔진에 등록할 수 있었다.
 
+<br>
 나는 구글에만 등록했는데 구글 검색 엔진 등록 방법을 좀 더 자세하게 설명하자면,
 
 #### 1) 구글 웹마스터 도구에 접속
