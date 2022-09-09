@@ -25,14 +25,15 @@ user.email이 일치하지 않거나 user.name이 일치하지 않으면 이런 
 <br>
 
 ## 본격적으로 깃허브 블로그를 만들고 Jekyll 테마 적용해보자!
-
-원하는 jekyll 테마 깃허브로 가서 
+jekyll 테마 사이트 : <a href="https://jekyllthemes.io/free"> https://jekyllthemes.io/free </a> <br>
+➕ <a href="http://jekyllthemes.org/">http://jekyllthemes.org/</a> 여기서 테마를 고르면 깃허브로 이동하지 않아도 바로 ZIP 파일을 다운받을 수 있다.<br>
+<br>
+원하는 jekyll 테마의 깃허브로 가서 
 
 ![image](https://user-images.githubusercontent.com/108778921/189264526-eecf8a55-46bf-4731-96d0-5e24453ee6fe.png)
 
 Download ZIP를 누르고 파일을 다운받은 다음, 폴더와 파일을 드래그해서 내 레파지토리에 업로드하면 될 것 같지만... 안 된다. 무한 로딩의 늪에 빠지게 된다.
 <strong> 따라서 Download ZIP를 누르고 파일을 다운받은 파일을 터미널을 이용해 내 레파지토리에 업로드 해야 한다. </strong>
-
 <br>
 
 ### 1. 새로운 레파지토리(Repository)를 만든다. - New 버튼 클릭
