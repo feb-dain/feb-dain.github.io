@@ -32,11 +32,13 @@ user.email이 일치하지 않거나 user.name이 일치하지 않으면 이런 
 Download ZIP를 누르고 파일을 다운받은 다음, 폴더와 파일을 드래그해서 내 레파지토리에 업로드하면 될 것 같지만... 안 된다. 무한 로딩의 늪에 빠지게 된다.
 <strong> 따라서 Download ZIP를 누르고 파일을 다운받은 파일을 터미널을 이용해 내 레파지토리에 업로드 해야 한다. </strong>
 
-#### 1. 새로운 레파지토리(Repository)를 만든다. - New 버튼 클릭
+### 1. 새로운 레파지토리(Repository)를 만든다. - New 버튼 클릭
 
 ![image](https://user-images.githubusercontent.com/108778921/189265424-9960da14-deff-4e8f-af32-bbb6e351b0d5.png)
 
-#### 2. Repository 이름을 " username.github.io " 으로 만든다.
+<br>
+
+### 2. Repository 이름을 " username.github.io " 으로 만든다.
 
 Owner &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Repository name <br>
 Username &nbsp; / &nbsp; username.github.io
@@ -44,3 +46,6 @@ Username &nbsp; / &nbsp; username.github.io
 ![image](https://user-images.githubusercontent.com/108778921/189265989-13e2b6e7-f60e-4546-872f-661542d9500c.png)
 
 Public, Add a README file 선택하고 생성!
+
+
+### 3.
