@@ -25,7 +25,7 @@ user.email이 일치하지 않거나 user.name이 일치하지 않으면 이런 
 <br>
 
 ## 본격적으로 깃허브 블로그를 만들고 Jekyll 테마 적용해보자!
-jekyll 테마 사이트 : <a href="https://jekyllthemes.io/free"> https://jekyllthemes.io/free </a> <br>
+jekyll 테마 사이트(유,무료) : <a href="https://jekyllthemes.io/free"> https://jekyllthemes.io/free </a> <br>
 ➕ <a href="http://jekyllthemes.org/">http://jekyllthemes.org/</a> 여기서 테마를 고르면 깃허브로 이동하지 않아도 바로 ZIP 파일을 다운받을 수 있다.<br>
 <br>
 원하는 jekyll 테마의 깃허브로 가서 
