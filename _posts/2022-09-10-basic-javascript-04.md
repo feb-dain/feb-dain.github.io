@@ -102,6 +102,7 @@ tags: JavaScript
     let result = phone.replace(phone.substr(9,4),"<span>****</span>");
     document.write("전화번호: "+result);    /* 전화번호: 010-1234-**** */
 ````
+<br>
 
 ### 3. Browser
 ````
@@ -129,6 +130,7 @@ tags: JavaScript
         document.write("windows 이외의 사용자");
     }
 ````
+<br>
 
 ### 4. Screen
 ````
@@ -138,6 +140,7 @@ tags: JavaScript
     screen.availWidth;    // 유효한(작업 표시줄 등 제외) 스크린 너비
     screen.availHeight;    // 유효한(작업 표시줄 등 제외) 스크린 높이
 ````
+<br>
 
 ### 5. SetInterval
 ````
@@ -163,6 +166,7 @@ tags: JavaScript
       <button onclick="clearInterval(minusNum);">setInterval_STOP2</button>
     </body>
 ````
+<br>
 
 ### 6. SetTimeout
 ````
@@ -171,6 +175,7 @@ tags: JavaScript
         alert("까꿍");
     },3000);
 ````
+<br>
 
 ### 7. SetAttribute : 속성값을 바꿔줌
 ````
@@ -182,4 +187,4 @@ tags: JavaScript
 `❗ this : 함수 내에서의 함수 호출 맥락(context). 함수를 어떻게 호출하느냐에 따라서 this가 가리키는 대상이 달라진다.
 Window일 수도, 객체 자신일 수도 있다.`
 
-
+<br>
