@@ -59,3 +59,41 @@ tags: JavaScript
 
 더 많은 JavaScript Date Objects를 알고 싶다면?
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date">&nbsp;&nbsp; Date - JavaScript | MDN </a>
+
+<br>
+
+### 2. String Objects
+````
+    let str = "Hello Thank you good luck to you ";
+            /* 012345678901234567890123456789012 */
+    
+    // a. 문자열에서 해당 인덱스 번호에 해당하는 문자를 반환
+    document.write(str.charAt(10),"<br>");     // k
+
+    // b. 문자열에서 왼쪽부터 찾을 문자와 제일 먼저 일치하는 문자의 인덱스 번호를 반환
+    document.write(str.indexOf("you"),"<br>");    // 12
+
+    // c. 문자열에서 오른쪽부터 찾을 문자와 제일 먼저 일치하는 문자의 인덱스 번호를 반환
+    document.write(str.lastIndexOf("you"),"<br>");    // 29
+
+    // d. 문자열에서 왼쪽부터 바꿀 문자와 일치하는 문자를 찾아 제일 먼저 찾는 문자를 새 문자로 치환 ⭐
+    document.write(str.replace("you","me"),"<br>");    // Hello Thank me good luck to you
+
+    // e. 문자열에서 문자를 자른 후 남는 문자를 반환 ⭐
+    document.write(str.slice(3,7),"<br>");    // 인덱스 3부터 7이전까지 추출 : lo T
+
+    // f. 문자열에서 지정한 문자 개수만큼 문자열 반환 ⭐
+    document.write(str.substr(21,4),"<br>");    // 인덱 21부터 4개 글자를 반환 : luck 
+
+    // g. 문자열에서 영문 대문자를 모두 소문자로 치환 ⭐
+    document.write(str.toLowerCase(),"<br>");    // hello thank you good luck to you
+
+    // h. 문자열에서 영문 소문자를 모두 대문자로 치환
+    document.write(str.toUpperCase(),"<br>");    // HELLO THANK YOU GOOD LUCK TO YOU
+
+    // i. 문자의 앞 또는 뒤에 공백 문자열 삭제
+    document.write(str.trim());    // Hello Thank you good luck to you
+
+    // A. 문자열 개수 반환
+    document.write(str.length);    // 33
+````
