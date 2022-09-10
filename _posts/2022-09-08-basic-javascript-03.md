@@ -118,6 +118,8 @@ return true/false 값을 명시해주는 것이 좋다.
 ````
 `❗ ceil : 올림, round : 반올림, floor : 내림`
 
+<br>
+
 #### 2. 배열 메서드(1)
 ````
     var num = [1,2,3];
