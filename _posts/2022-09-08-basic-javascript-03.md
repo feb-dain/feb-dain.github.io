@@ -1,6 +1,7 @@
 ---
 title:  "Basic javascript 03"
 layout: post
+tags: JavaScript
 ---
 
 <div align="center">
