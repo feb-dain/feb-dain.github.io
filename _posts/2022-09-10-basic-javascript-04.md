@@ -129,3 +129,45 @@ tags: JavaScript
         document.write("windows 이외의 사용자");
     }
 ````
+
+### 4. Screen
+````
+    // 사용자의 화면 크기나 정보를 알아낼 수 있다.
+    screen.width;    // 스크린 너비
+    screen.height;    // 스크립 높이
+    screen.availWidth;    // 유효한(작업 표시줄 등 제외) 스크린 너비
+    screen.availHeight;    // 유효한(작업 표시줄 등 제외) 스크린 높이
+````
+
+### 5. SetInterval
+````
+    <script>
+      let addNum = 0;
+      let subNum = 1000;
+      // 3초마다 1씩 더하기
+      let plusNum = setInterval(function(){
+          addNum++;
+          console.log("addNum : "+addNum);    /* 1 -> 2 */
+      },3000);
+
+      // 2초마다 1씩 빼기
+      let minusNum = setInterval(function(){
+          subNum--;
+          console.log("minusNum : "+subNum);    /* 999 -> 998 */
+      },2000);
+    <script>
+    
+    <body>
+      <!-- 인터벌 멈추게 하기 -->
+      <button onclick="clearInterval(plusNum);">setInterval_STOP</button>
+      <button onclick="clearInterval(minusNum);">setInterval_STOP2</button>
+    </body>
+````
+
+### 6. SetTimeout
+````
+    // 3초 뒤 알림창 나타남
+    setTimeout(function(){
+        alert("까꿍");
+    },3000);
+````
