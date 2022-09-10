@@ -4,6 +4,7 @@ layout: post
 ---
 
 <br>
+
 ![image](https://user-images.githubusercontent.com/108778921/189468576-6d920035-f441-4a23-ac3f-edca4007a781.png)
 
 깃허브 블로그를 만들고 나니 '댓글 기능도 있었으면 좋겠고, 구글 검색에도 걸렸으면 좋겠는데...'라는 생각이 들었다.<br>
