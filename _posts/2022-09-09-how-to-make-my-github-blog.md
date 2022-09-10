@@ -1,6 +1,7 @@
 ---
 title:  "깃허브 블로그 만들고 jekyll 테마 적용하기"
 layout: post
+tags: GitHub-Blog
 ---
 <br>
 
