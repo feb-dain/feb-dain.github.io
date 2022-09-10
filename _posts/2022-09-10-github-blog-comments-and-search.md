@@ -1,7 +1,7 @@
 ---
 title:  "깃허브 블로그 댓글 기능 추가, 검색 엔진에 등록하기"
 layout: post
-tags: github blog
+tags: github-blog
 ---
 
 <p></p>
