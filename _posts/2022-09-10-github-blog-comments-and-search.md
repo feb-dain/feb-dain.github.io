@@ -5,7 +5,10 @@ layout: post
 
 <br>
 
+<div align="center">
+ 
 ![image](https://user-images.githubusercontent.com/108778921/189468576-6d920035-f441-4a23-ac3f-edca4007a781.png)
+</div>
 
 깃허브 블로그를 만들고 나니 '댓글 기능도 있었으면 좋겠고, 구글 검색에도 걸렸으면 좋겠는데...'라는 생각이 들었다.<br>
 구글 검색을 해보니 많은 개발자들이 방법을 정리해둔 블로그들이 있었고, 많은 도움을 받았다.<br>
