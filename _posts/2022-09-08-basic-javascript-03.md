@@ -113,9 +113,7 @@ return true/false 값을 명시해주는 것이 좋다.
     
     // 2. 랜덤값 만들기
     var menuSelect = Math.floor(Math.random()*menu.length);
-    console.log(menuSelect);
     var result = menu[menuSelect];
-    console.log(result);
     document.write("<h1>오늘의 점심 메뉴는 <em>"+result+"</em></h1>")
 ````
 `❗ ceil : 올림, round : 반올림, floor : 내림`
