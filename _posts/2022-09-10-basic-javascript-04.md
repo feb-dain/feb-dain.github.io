@@ -94,7 +94,7 @@ tags: JavaScript
     // i. 문자의 앞 또는 뒤에 공백 문자열 삭제
     document.write(str.trim());    // Hello Thank you good luck to you
 
-    // A. 문자열 개수 반환
+    // + 문자열 개수 반환
     document.write(str.length);    // 33
 ````
 ````
