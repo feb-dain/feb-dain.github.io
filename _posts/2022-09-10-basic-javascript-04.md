@@ -7,6 +7,7 @@ tags: JavaScript
 <div align="center">
   
   ![image](https://user-images.githubusercontent.com/108778921/189476944-908e7ba2-0345-4603-b642-6da62790e8bf.png)
+  
   <p>기본 자바스크립트 정리 4탄, Methods(메서드)</p>
 </div>
 <br>
