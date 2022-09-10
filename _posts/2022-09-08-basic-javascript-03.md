@@ -117,3 +117,28 @@ return true/false 값을 명시해주는 것이 좋다.
     document.write("<h1>오늘의 점심 메뉴는 <em>"+result+"</em></h1>")
 ````
 `❗ ceil : 올림, round : 반올림, floor : 내림`
+
+#### 2. 배열 메서드(1)
+````
+        var num = [1,2,3];
+        var str = ["a","b","c","d"];
+
+        // a. 두 개 배열 합치기
+        var numStr = num.concat(str);    /* 1,2,3,a,b,c,d */
+        var strNum = str.concat(num);    /* a,b,c,d,1,2,3 */
+        
+        // b. 배열 내 요소 합치기
+        var join1 = num.join();     /* 1,2,3 */
+        var join2 = str.join("/");     /* a/b/c/d */
+        
+        // c. 요소 추가 | 새로운 변수에 할당하면 새로운 length값 반환
+        var push = num.push(4,5);    //배열 끝에 추가
+        document.write(num);    /* 1,2,3,4,5 */
+        document.write(push);    /* 5 */
+        var unshift = num.unshift(0); //배열 앞에 추가
+        document.write(num);    /* 0,1,2,3,4,5 */
+
+        // d. 요소 추출 | 꺼낸 요소 반환
+        var pop = str.pop();    /* d */
+        var shift = str.shift(); /* a */
+````
