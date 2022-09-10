@@ -102,3 +102,30 @@ tags: JavaScript
     let result = phone.replace(phone.substr(9,4),"<span>****</span>");
     document.write("전화번호: "+result);    /* 전화번호: 010-1234-**** */
 ````
+
+### 3. Browser
+````
+    // 1.location = 브라우저 주소창
+    현재 주소 : location.href
+    현재 사용하는 프로토콜 : location.protocol
+    현재 사용하는 포트 번호 : location.host
+
+    // 2. navigator = 브라우저 정보
+    브라우저 코드명 : navigator.appCodeName 
+    브라우저 이름 : navigator.appName 
+    브라우저 버전 : navigator.appVersion 
+    브라우저 사용 언어 : navigator.language
+    브라우저 엔진 이름 : navigator.product 
+    운영체제 환경 : navigator.platform 
+    운영체제 종합 정보 : navigator.userAgent 
+````
+````
+    // Windows 사용자 찾기
+    let client = navigator.userAgent.toLowerCase();
+    let result = client.indexOf("windows");
+    if(result){
+        document.write("Windows 사용자");
+    }else{
+        document.write("windows 이외의 사용자");
+    }
+````
