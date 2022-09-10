@@ -5,6 +5,7 @@ permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
+google_analytics: "G-KJGSJGDLW4"
 
 # Layout
 
@@ -31,12 +32,3 @@ comments:
 
 plugins:
  - jekyll-feed
-
-
-
-analytics:
-  provider               : "google-gtag" 
-                          # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          : "G-KJGSJGDLW4"
-    anonymize_ip         : # true, false (default)
