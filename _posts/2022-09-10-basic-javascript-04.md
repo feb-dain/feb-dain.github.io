@@ -5,7 +5,8 @@ tags: JavaScript
 ---
 
 <div align="center">
-  <img src ="https://user-images.githubusercontent.com/108778921/189139969-bf92ca10-4b2c-4ed5-8153-49f0cf6ddd6e.png" title="studying">
+  
+  ![image](https://user-images.githubusercontent.com/108778921/189476944-908e7ba2-0345-4603-b642-6da62790e8bf.png)
   <p>기본 자바스크립트 정리 4탄, Methods(메서드)</p>
 </div>
 <br>
