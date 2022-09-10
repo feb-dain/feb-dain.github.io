@@ -104,3 +104,18 @@ return true/false 값을 명시해주는 것이 좋다.
             document.write(test[i]);    /* 국어영어수학과학사회 */
         }
 ````
+
+#### 1. Random
+````
+    // 점심 메뉴 정하기
+    // 1. 배열에 저장
+    var menu = ["김치찌개","삼겹살","피자","초밥","돈가스","닭강정","치킨","된장찌개"];
+    
+    // 2. 랜덤값 만들기
+    var menuSelect = Math.floor(Math.random()*menu.length);
+    console.log(menuSelect);
+    var result = menu[menuSelect];
+    console.log(result);
+    document.write("<h1>오늘의 점심 메뉴는 <em>"+result+"</em></h1>")
+````
+`❗ ceil : 올림, round : 반올림, floor : 내림`
