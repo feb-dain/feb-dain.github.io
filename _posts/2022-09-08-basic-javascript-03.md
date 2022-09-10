@@ -117,7 +117,6 @@ return true/false 값을 명시해주는 것이 좋다.
     document.write("<h1>오늘의 점심 메뉴는 <em>"+result+"</em></h1>")
 ````
 `❗ ceil : 올림, round : 반올림, floor : 내림`
-
 <br>
 
 #### 2. 배열 메서드(1)
