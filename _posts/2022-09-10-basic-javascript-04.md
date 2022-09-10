@@ -5,10 +5,8 @@ tags: JavaScript
 ---
 
 <div align="center">
-  
-  ![image](https://user-images.githubusercontent.com/108778921/189476944-908e7ba2-0345-4603-b642-6da62790e8bf.png)
-  
-  <p>기본 자바스크립트 정리 4탄, Methods(메서드)</p>
+  <img src ="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" title="studying">
+  <p>기본 자바스크립트 정리 3탄, 함수와 배열</p>
 </div>
 <br>
 <br>
