@@ -97,3 +97,9 @@ tags: JavaScript
     // A. 문자열 개수 반환
     document.write(str.length);    // 33
 ````
+````
+    // 입력받은 전화번호 뒷자리 별표(*)로 가리기
+    let phone = prompt("전화번호를 입력하세요.","010-1234-5678");
+    let result = phone.replace(phone.substr(9,4),"<span>****</span>");
+    document.write("전화번호: "+result);    /* 전화번호: 010-1234-**** */
+````
