@@ -59,4 +59,4 @@ tags: JavaScript
 ````
 
 더 많은 JavaScript Date Objects를 알고 싶다면?
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date"> Date - JavaScript | MDN </a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date">&nbsp;&nbsp;Date - JavaScript | MDN </a>
