@@ -116,7 +116,7 @@ return true/false 값을 명시해주는 것이 좋다.
     var result = menu[menuSelect];
     document.write("<h1>오늘의 점심 메뉴는 <em>"+result+"</em></h1>")
 ````
-`❗ ceil : 올림, round : 반올림, floor : 내림`
+`❗ ceil : 올림 | round : 반올림 | floor : 내림 | max : 최댓값 | min : 최솟값 | random : 0~1 사이의 난수`
 <br>
 
 #### 2. 배열 메서드(1)
