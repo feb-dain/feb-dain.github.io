@@ -65,7 +65,6 @@ tags: JavaScript
 ### 2. String Objects
 ````
     let str = "Hello Thank you good luck to you ";
-            /* 012345678901234567890123456789012 */
     
     // a. 문자열에서 해당 인덱스 번호에 해당하는 문자를 반환
     document.write(str.charAt(10),"<br>");     // k
