@@ -171,3 +171,15 @@ tags: JavaScript
         alert("까꿍");
     },3000);
 ````
+
+### 7. SetAttribute : 속성값을 바꿔줌
+````
+    // this.속성(src)으로 할당. 동적 변수 src를 변수 newPic에 저장
+    let newPic = this.src;
+    // setAttribute("바꿀 속성명",바뀌는 변수) 
+    바꿀 변수.setAttribute("src",newPic);
+````
+`❗ this : 함수 내에서의 함수 호출 맥락(context). 함수를 어떻게 호출하느냐에 따라서 this가 가리키는 대상이 달라진다.
+Window일 수도, 객체 자신일 수도 있다.`
+
+
