@@ -5,9 +5,9 @@ tags: GitHub-Blog
 ---
 
 <p>
-  <b>SEO란?</b> 검색 엔진 최적화(search engine optimization)의 준말로 <br>
-  구글이나 네이버, 다음 등과 같은 검색 엔진에서 검색이 잘 되도록 하는 것을 말한다. <br>
-  네이버 검색 엔진에 깃허브 블로그를 등록하다가 '웹 페이지 최적화'를 발견했다. <br>
+  <b>SEO란?</b> 검색 엔진 최적화(search engine optimization)의 준말로<br>
+  구글이나 네이버, 다음 등과 같은 검색 엔진에서 검색이 잘 되도록 하는 것을 말한다.<br>
+  네이버 검색 엔진에 깃허브 블로그를 등록하다가 '웹 페이지 최적화'를 발견했다.<br>
   '검색 엔진이 요청한 페이지 콘텐츠를 잘 해석할 수 있는지'를 진단할 수 있는 좋은 기능이다.
 </p>
 <a href="https://searchadvisor.naver.com/console/board">네이버 웹마스터 도구</a>에 들어가서
