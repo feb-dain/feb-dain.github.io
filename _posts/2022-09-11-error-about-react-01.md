@@ -6,14 +6,12 @@ tags: Error
 
 <p>
   깃허브에 리액트를 배포하려고 하는데 흰 배경만 뜬다. 개발자 도구를 눌러 어떤 오류가 발생했는지 확인해보니 <br>
-  Manifest: Line: 1, column: 1, Syntax error. </p>
-  
+  Manifest: Line: 1, column: 1, Syntax error.
+</p>
   
   ![image](https://user-images.githubusercontent.com/108778921/189516802-c4b543bb-5f24-4e34-a0d1-e8aff3766b6f.png)
 
-  
-  net::ERR_ABORTED 404 <br>
-  
+  <p>net::ERR_ABORTED 404</p>
   
   ![image](https://user-images.githubusercontent.com/108778921/189516663-c6475c90-6cdb-44e9-bdbc-912d853bb3ab.png)<br>
 
