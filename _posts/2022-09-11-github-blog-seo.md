@@ -10,7 +10,7 @@ tags: GitHub-Blog
   네이버 검색 엔진에 깃허브 블로그를 등록하다가 '웹 페이지 최적화'를 발견했다. <br>
   '검색 엔진이 요청한 페이지 콘텐츠를 잘 해석할 수 있는지'를 진단할 수 있는 좋은 기능이다.
 </p>
-<br>  
+  
 <a href="https://searchadvisor.naver.com/console/board">네이버 웹마스터 도구</a>에 들어가서
 
 ![image](https://user-images.githubusercontent.com/108778921/189526397-5d54f6b4-0c61-49b8-a689-470ffe5507d8.png)
