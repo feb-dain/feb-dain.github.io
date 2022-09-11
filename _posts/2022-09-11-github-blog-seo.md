@@ -33,12 +33,8 @@ tags: GitHub-Blog
 
 ![image](https://user-images.githubusercontent.com/108778921/189527071-7f9b8207-1668-4f19-a6e7-0dd9a2d20138.png)
 
-
-````
-<meta name="description" content=""> 
-<meta property="og:title" content="">
-<meta property="og:description" content="">
-````
+  
+📢 **코드가 필요하신 분들은 아래 댓글을 복사해주세요!**
   
 <br>
  
