@@ -28,7 +28,7 @@ tags: GitHub-Blog
  ````
  <!--  Utterances Comments -->
   <script src="https://utteranc.es/client.js"
-        repo="username/blog-comments"
+        repo="user-name/blog-comments"
         issue-term="pathname"
         label="🔔 Comment"
         theme="github-light"
