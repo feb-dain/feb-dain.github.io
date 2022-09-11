@@ -4,7 +4,7 @@ layout: post
 tags: React
 ---
 
-## 깃허브에 React 간단하게 배포하는 방법
+### 깃허브에 React 간단하게 배포하는 방법
 
 <p><strong> 1. package.json 파일에 코드 2줄 추가 </strong></p>
 
