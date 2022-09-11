@@ -34,9 +34,9 @@ tags: GitHub-Blog
 ![image](https://user-images.githubusercontent.com/108778921/189527071-7f9b8207-1668-4f19-a6e7-0dd9a2d20138.png)
 
 ```  
-<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="description" content="{% if page.excerpt %💚}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 💚}}{% else %}{{ site.description 💚}}{% endif %}">
+<meta property="og:title" content="{% if page.title %💚}{{ page.title | escape 💚}}{% else %}{{ site.title | escape 💚}}{% endif %}">
+<meta property="og:description" content="{% if page.excerpt %💚}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }💚}{% else %}{{ site.description }💚}{% endif %}">
 ```  
 <br>
  
