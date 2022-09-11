@@ -39,5 +39,18 @@ tags: GitHub-Blog
 <meta property="og:title" content="">
 <meta property="og:description" content="">
 ````
+  
+<meta name="description" content="{% if page.excerpt 
+                                  <br>%}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 
+                                  <br>}}{% else %}{{ site.description 
+                                  <br>}}{% endif %}">
+<meta property="og:title" content="{% if page.title 
+                                   <br>%}{{ page.title | escape 
+                                   <br>}}{% else %}{{ site.title | escape 
+                                   <br>}}{% endif %}">
+<meta property="og:description" content="{% if page.excerpt 
+                                         <br>%}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 
+                                         <br>}}{% else %}{{ site.description 
+                                         <br>}}{% endif %}">  
 <br>
  
