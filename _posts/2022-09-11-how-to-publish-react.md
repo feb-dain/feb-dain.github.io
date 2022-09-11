@@ -17,7 +17,6 @@ tags: React
 
 <p></p>
 <p></p>
-<p></p>
 
 <br>  
 
