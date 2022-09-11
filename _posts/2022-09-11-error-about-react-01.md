@@ -9,11 +9,11 @@ tags: Error
   Manifest: Line: 1, column: 1, Syntax error.
 </p>
   
-  ![image](https://user-images.githubusercontent.com/108778921/189516802-c4b543bb-5f24-4e34-a0d1-e8aff3766b6f.png)
+![image](https://user-images.githubusercontent.com/108778921/189516802-c4b543bb-5f24-4e34-a0d1-e8aff3766b6f.png)
 
-  <p>net::ERR_ABORTED 404</p>
+<p>net::ERR_ABORTED 404</p>
   
-  ![image](https://user-images.githubusercontent.com/108778921/189516663-c6475c90-6cdb-44e9-bdbc-912d853bb3ab.png)<br>
+![image](https://user-images.githubusercontent.com/108778921/189516663-c6475c90-6cdb-44e9-bdbc-912d853bb3ab.png)<br>
 
   
 <p>
