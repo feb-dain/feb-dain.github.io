@@ -8,23 +8,24 @@ tags: React
 
 ### 1. package.json 파일에 코드 2줄 추가
 
-```javascript
+````
 "deploy" : "gh-pages -d build",
 "predeploy" : "npm run build"
-```
+````
 
 ![image](https://user-images.githubusercontent.com/108778921/189518749-9bc4d2c8-2f86-4960-b84c-44244ad65eaa.png)
 
 <p></p>
 <p></p>
 <p></p>
+
 <br>  
 
 ### 2. (가독성을 위해) 맨 밑에 homepage 코드 추가
 
-```javascript
+````
   "homepage" : "https://github.com/user-name/repository-name.git"
-```
+````
 
 ![image](https://user-images.githubusercontent.com/108778921/189518734-85b5215a-2fb3-4d57-be13-13275a672db2.png)
 
