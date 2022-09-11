@@ -22,11 +22,11 @@ tags: Error
 
 ## 1. Manifest: Line: 1, column: 1, Syntax error.
 
-<p> 1) &npsp;내 레파지토리에 있는 index.html 파일에 들어가서 link rel="manifest"를 찾는다. </p>
+<p> 1)  내 레파지토리에 있는 index.html 파일에 들어가서 link rel="manifest"를 찾는다. </p>
  
 ![image](https://user-images.githubusercontent.com/108778921/189516844-4fee2fae-6eb7-443d-b952-1e8c6934eff0.png)
 
 
-<p> 2) &npsp;manifest 앞에 '/'만 추가 해주면 끝! </p>
+<p> 2)  manifest 앞에 '/'만 추가 해주면 끝! </p>
 
 ![image](https://user-images.githubusercontent.com/108778921/189516935-56e15f36-bf55-4d2f-957b-a400f1808374.png)
