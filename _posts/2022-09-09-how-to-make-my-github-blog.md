@@ -106,7 +106,7 @@ echo "GitHub Blog" > index.html
 
 ````
 git add --all
-git commit -m "commit!"
+git commit -m "initial commit"
 git push -u origin main
 ````
 ⛔ <b>! [rejected] main -> main (fetch first) error: failed to push some refs to</b> 에러가 발생한 경우, 
