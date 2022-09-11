@@ -20,7 +20,7 @@ user.email이 일치하지 않거나 user.name이 일치하지 않으면 이런 
 >❗ [번외] 잔디와 상관없이 편하게 깃허브 블로그를 사용하고, jekyll 테마를 사용하려면
 원하는 jekyll 테마의 깃허브로 가서 Fork를 눌러 내 레파지토리에 들고온 뒤, 
 레파지토리 이름(Repository name)을 원하는 것으로 바꾸면 된다. (변경은 Settings>General에서 Repository name을 바꾸고 rename을 누르면 된다.) 
-보통은 "username.github.io"로 이름을 설정하는 듯하다.
+보통은 "user-name.github.io"로 이름을 설정하는 듯하다.
 
 
 <br>
@@ -44,10 +44,10 @@ Download ZIP를 누르고 파일을 다운받은 다음, 폴더와 파일을 드
 
 <br>
 
-### 2. Repository 이름을 " username.github.io " 으로 만든다.
+### 2. Repository 이름을 " user-name.github.io " 으로 만든다.
 
 > <b> Owner &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Repository name</b> <br>
-> Username &nbsp; / &nbsp; username.github.io
+> User-name &nbsp; / &nbsp; user-name.github.io
 <br>
 
 그리고
@@ -85,14 +85,14 @@ git clone 복사한 HTTPS 주소
 
 <br>
 
-### 5. 폴더(username.github.io) 열고 확인차 파일 생성하기
+### 5. 폴더(user-name.github.io) 열고 확인차 파일 생성하기
 
 ![image](https://user-images.githubusercontent.com/108778921/189270243-521a2b5c-fbfa-4684-9100-ace94003e586.png)
 
 아직은 README 파일만 있는데, 여기에 확인차 파일을 하나 만들어보자.
 
 ````
-cd username.github.io
+cd user-name.github.io
 echo "GitHub Blog" > index.html
 ````
 
@@ -121,7 +121,7 @@ git push -u origin main --force
 ![image](https://user-images.githubusercontent.com/108778921/189271262-170826b4-f5de-47c7-854c-4b90b0a865cb.png)
 
 성공적으로 연결됐으면 내 레파지토리에 index.html 파일도 생성된 것을 확인할 수 있다.<br>
-이제 "username.github.io"을 주소창에 치면? "GitHub Blog" 글자가 나타난다.
+이제 "user-name.github.io"을 주소창에 치면? "GitHub Blog" 글자가 나타난다.
 
 <br>
 
@@ -146,19 +146,19 @@ ruby -v
 gem install jekyll bundler
 ````
 
-설치가 완료되면 아까 만든 폴더(username.github.io)에 들어가서 README 파일과 index.html 파일 모두 지워준다.
+설치가 완료되면 아까 만든 폴더(user-name.github.io)에 들어가서 README 파일과 index.html 파일 모두 지워준다.
 그리고 터미널에서 위의 폴더로 경로를 바꿔준다.
 ````
-cd username.github.io
+cd user-name.github.io
 ````
 그러면 이런 식으로 경로가 바뀐다.<br>
-<b> ~/username.github.io> </b>
+<b> ~/user-name.github.io> </b>
 <br>
 <br>
 여기에 <strong> jekyll new ./ </strong> 입력.
 
 ````
-username.github.io>jekyll new ./
+user-name.github.io>jekyll new ./
 ````
 
 ⛔ 아까 폴더 안에 .git 폴더를 제외한 README 파일과 index.html 파일을 지우지 않았다면 오류가 뜨니 <strong>폴더 안의 파일을 모두 지워야 한다!</strong>
@@ -197,7 +197,7 @@ git push
 <br>
 
 ### 11. 맨 처음 다운 받은 Jekyll 테마 적용
-맨 처음에 다운 받은 jekyll 테마 알집(ZIP) 파일을 풀고, 안에 있는 폴더와 파일을 username.github.io 폴더에 복사 또는 이동시켜준다.
+맨 처음에 다운 받은 jekyll 테마 알집(ZIP) 파일을 풀고, 안에 있는 폴더와 파일을 user-name.github.io 폴더에 복사 또는 이동시켜준다.
 같은 이름을 가진 파일이 이미 있다고 경고창이 뜰텐데 그냥 덮어쓰기하면 된다.
 
 ````
