@@ -41,9 +41,9 @@ tags: Error
   처음에는 '경로가 맞는데 왜 안되는 걸까?' 생각했다. 하지만 이 경로는 잘못된 것이 맞았다.
 </p>
 
-1) index.html 파일에 들어간다. <br>
-2) `<script defer="defer" src="/user-name/repository-name.git//static/js/main.~~~.js"></script>` 수정할 코드를 찾는다. <br>
-3) `<script defer="defer" src="/static/js/main.8bc0a58a.js"></script>` 코드를 수정한다. <br>
+1) index.html 파일에 들어간다. <br><br>
+2) `<script defer="defer" src="/user-name/repository-name.git//static/js/main.~~~.js"></script>` 수정할 코드를 찾는다. <br><br>
+3) `<script defer="defer" src="/static/js/main.8bc0a58a.js"></script>` 코드를 수정한다. <br><br>
 
 <p> 이렇게 바꿔주니 리액트 배포 성공!! 👏 </p>
 
