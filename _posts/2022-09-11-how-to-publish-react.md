@@ -32,7 +32,7 @@ tags: React
   "homepage" : "https://github.com/user-name/repository-name.git"
 ````
 
-![image](https://user-images.githubusercontent.com/108778921/189519691-8174c3c7-9b89-44ba-8c64-b45d4471539a.png)
+![image](https://user-images.githubusercontent.com/108778921/189530858-0feaf914-5d24-4ed9-99ed-586afb932bc8.png)
 
 <br>
 
