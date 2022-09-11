@@ -15,10 +15,11 @@ tags: Error
   
 ![image](https://user-images.githubusercontent.com/108778921/189516663-c6475c90-6cdb-44e9-bdbc-912d853bb3ab.png)<br>
 
-<br>  
+
 <p>
   이렇게 두 가지 오류가 발생했다. 하나씩 해결해보자!
 </p>
+<br>
 
 ## 1. Manifest: Line: 1, column: 1, Syntax error.
 
