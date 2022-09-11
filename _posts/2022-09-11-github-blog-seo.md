@@ -29,7 +29,7 @@ tags: GitHub-Blog
 
 이렇게 항목이 뜬다.<br>
   
-나는 <b>페이지 설명, Open Graph 제목, Open Graph 설명</b>에 ❌ 표시가 떴었는데, 이럴 경우 간단하게 <head> 태그 아래에 코드 3줄만 추가해주면 된다.
+나는 **페이지 설명, Open Graph 제목, Open Graph 설명** ❌ 표시가 떴었는데, 이럴 경우 간단하게 <head> 태그 아래에 코드 3줄만 추가해주면 된다.
 
 ![image](https://user-images.githubusercontent.com/108778921/189527071-7f9b8207-1668-4f19-a6e7-0dd9a2d20138.png)
 
