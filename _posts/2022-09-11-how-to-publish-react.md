@@ -3,7 +3,6 @@ title:  "깃허브에 리액트 배포하기"
 layout: post
 tags: React
 ---
-<br>
 
 ### 깃허브에 React 간단하게 배포하는 방법
 
@@ -22,6 +21,10 @@ tags: React
 <p></p>
 
 <br>  
+
+
+
+
 
 <p><strong> 2. (가독성을 위해) 맨 밑에 homepage 코드 추가 </strong></p>
 
