@@ -26,7 +26,7 @@ tags: React
 이 <a href="https://goddaehee.tistory.com/299?category=395445">블로그</a>에 자세하게 설명되어 있다.
 
 <details>
-<summary>💡 컴포넌트 팁</summary>
+<summary>💡 컴포넌트 팁 💡</summary>
 <div markdown="2">
   무작정 잘게 자른다고 좋은 게 아니다. "재사용성"을 고려해 나눠야 한다. <br>
   <b>정확한 이유가 없다면 미리 분리하지 말고, 필요할 때 적절하게 분리하는 것이 좋다</b>
