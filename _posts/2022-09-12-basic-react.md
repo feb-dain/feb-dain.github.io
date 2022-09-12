@@ -121,5 +121,34 @@ useEffect(() => {
   }, [keyword, counter])
   ````
 "[]"안에 여러 개를 넣을 수도 있다.
+<br>
+
+### CSS 적용
+전체 적용을 원한다면 .css 파일 만들어서 index.js에 import 해주면 된다. (global css)
+````
+import "./styles.css";
+````
+
+하지만 만약 모듈화를 하고 싶다면?<br>
+1) Name.module.css 파일을 만들어서
+````
+.btn {
+    color:white;
+    background-color: tomato;
+}
+````
+
+2) 원하는 .js 파일에 import 하고,
+````
+import styles from "./Button.module.css"
+````
+
+3) 적용 원하는 태그에 className을 넣어주면 된다.
+````
+function Button({text}){
+    return <button className={styles.btn}>{text}</button>;
+}
+````
+_Random class name 적용되기 때문에 같은 class name 설정해도 된다._
 
 <br>
