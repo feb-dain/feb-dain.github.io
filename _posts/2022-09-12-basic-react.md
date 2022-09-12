@@ -153,7 +153,7 @@ export default App;
 ````
 <br>
 
-### Clean up : component가 사라질 때 뭔가 할 수 있도록 해주는 것
+### Clean-up : component가 사라질 때 뭔가 할 수 있도록 해주는 것
 ````
 function Hello(){
   useEffect(() => {
