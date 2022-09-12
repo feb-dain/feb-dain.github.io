@@ -82,12 +82,15 @@ useEffect(() => {
 ````
 Watch "[ ]"라고 말하는 것과 같다. 위의 경우, 리액트가 볼 것이 없기 때문에 딱 한 번만 실행된다.
 <br>
+<br>
+
 ````
 useEffect(() => {
     console.log("Search for", keyword);
   }, [keyword]);
 ````
 React에게 “watch keyword”라고 말하는 것과 같다. keyword가 바뀔 때만 실행된다.<br>
+<br>
 만약 첫 렌더딩 때, Search for가 안 떴으면 좋겠다면 조건문을 이용하면 된다. 
 
 ````
