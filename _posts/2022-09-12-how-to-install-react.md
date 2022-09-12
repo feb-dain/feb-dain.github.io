@@ -36,7 +36,7 @@ tags: React
 <br>
 
 ### 5. index.js에서 필요한 것 빼고 다 지우기
-( 깔끔하게 처음부터 시작하기 위해서다. )
+<span style="color:gray"> _깔끔하게 처음부터 시작하기 위해서다._ </span>
 
 <br>
 
@@ -51,6 +51,7 @@ function App() {
 }
 export default App;
 ````
+<br>
 
 ### 7. src 폴더 > App.css, App.test.js, index.css, logo.svg, reportWebVitals.js, setupTests.js 파일 지우기
 
