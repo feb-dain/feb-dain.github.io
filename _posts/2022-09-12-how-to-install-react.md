@@ -1,4 +1,4 @@
-3---
+---
 title:  "리액트 설치하기"
 layout: post
 tags: React
