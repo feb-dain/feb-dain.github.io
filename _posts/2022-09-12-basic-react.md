@@ -97,3 +97,14 @@ useEffect(() => {
     }
   }, [keyword]);
 ````
+
+````
+useEffect(() => {
+    if(keyword !== "" && keyword.length > 5){
+      console.log("Search for", keyword);
+    }
+  }, [keyword]);
+````
+and 연산자를 이용해 조건을 여러 개로 설정할 수도 있다.
+
+<br>
