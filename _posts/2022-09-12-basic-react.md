@@ -34,6 +34,11 @@ JavaScript는 다른 부분도 업데이트되는 반면, React는 html 코드�
 </details>
 <br>
 
+### props? 
+Properties의 준말, 부모 컴포넌트에서 자식 컴포넌트로 값을 전달할 때 사용한다. (읽기 전용) 
+
+<br>
+
 ### State?
 Basically where your data will be, 기본적으로 데이터가 저장되는 곳이다.<br>
 - state가 변하면 계속 render된다.
@@ -63,7 +68,3 @@ export default App;
 
 <br>
 
-### props? 
-Properties의 준말, 부모 컴포넌트에서 자식 컴포넌트로 값을 전달할 때 사용한다. (읽기 전용) 
-
-<br>
