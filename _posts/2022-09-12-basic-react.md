@@ -126,6 +126,47 @@ useEffect(() => {
 <br>
 <br>
 
+### useEffect와 useState 활용
+````
+import {useEffect, useState} from "react";
+
+function Hello(){
+  useEffect(() => {
+    console.log("hi:)");
+    return () => console.log("bye :(");
+  }, []);
+  return <h1>Hello</h1>;
+}
+
+function App() {
+  const [showing, setShowing] = useState(false);
+  const onClick = () => setShowing((prev) => !prev);
+  return (
+    <div>
+      {showing ? <Hello /> : null }
+      <button onClick={onClick}>{showing ? "Hide" : "Show"}</button>
+    </div>  
+  );
+}
+
+export default App;
+````
+<br>
+
+### Clean up : component가 사라질 때 뭔가 할 수 있도록 해주는 것
+````
+function Hello(){
+  useEffect(() => {
+    console.log("created :)");
+    // Clean up function
+    return () => console.log("destroyed :(");
+  }, []);
+  return <h1>Hello</h1>;
+}
+````
+
+<br>
+
 ### CSS 적용
 전체 적용을 원한다면 .css 파일 만들어서 index.js에 import 해주면 된다. (global css)
 ````
