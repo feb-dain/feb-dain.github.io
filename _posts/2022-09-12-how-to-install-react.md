@@ -10,11 +10,11 @@ Node.js를 설치했다면 다음과 같은 순서로 진행하면 된다. </p>
 <br>
 
 ### 1. `VS code 작업 영역에 폴더 추가  →  폴더 생성` 
-❗&nbsp; react라는 폴더명은 오동작 할 수 있으니 피할 것
+&nbsp;❗&nbsp; react라는 폴더명은 오동작 할 수 있으니 피할 것
 <br>
 
 ### 2. `새 터미널 열기` 
-❗&nbsp; powershell은 오류가 날 수 있으니 cmd나 다른 거 사용하는 걸 추천
+&nbsp;❗&nbsp; powershell은 오류가 날 수 있으니 cmd나 다른 거 사용하는 걸 추천
 <br>
 
 ### 3. `터미널에 “npx create-react-app .” 입력`    
