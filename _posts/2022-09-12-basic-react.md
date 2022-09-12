@@ -76,6 +76,8 @@ state가 변할 때마다 렌더링되지 않고, 딱 한 번만 실행됐으면
 <br>
 
 ````
+import {useEffect} from "react";
+
 useEffect(() => {
     console.log("Call the api");
   }, []);
@@ -89,7 +91,7 @@ useEffect(() => {
     console.log("Search for", keyword);
   }, [keyword]);
 ````
-React에게 “watch keyword”라고 말하는 것과 같다. keyword가 바뀔 때만 실행된다.<br>
+React에게 “Watch keyword”라고 말하는 것과 같다. keyword가 바뀔 때만 실행된다.<br>
 <br>
 
 만약 첫 렌더딩 때, Search for가 안 떴으면 좋겠다면 조건문을 이용하면 된다. 
