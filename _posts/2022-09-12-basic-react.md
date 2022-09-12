@@ -7,7 +7,7 @@ tags: React
 ### Why react?
 왜 리액트를 사용해야 하는가?<br>
 
-: JavaScript는 다른 부분도 업데이트되는 반면, React는 html 코드에서 “변하는 부분만” 업데이트된다.<br>
+JavaScript는 다른 부분도 업데이트되는 반면, React는 html 코드에서 “변하는 부분만” 업데이트된다.<br>
 ⇒ `인터렉티브에 최적화`<br>
 게다가 `코드가 간결하고, 유지보수가 쉽다.`
 
