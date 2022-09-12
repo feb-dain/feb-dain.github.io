@@ -68,3 +68,32 @@ export default App;
 
 <br>
 
+### useEffect?
+If you want some code in my components only to run the first time and never again, then you should useEffect.<br>
+state가 변할 때마다 렌더링되지 않고, 딱 한 번만 실행됐으면 좋겠다면 "useEffect"를 사용하면 된다.<br>
+
+❗  첫 render할 때 console에 코드가 두 번 찍힐 경우, `index.js파일 안 React.StrictMode를 지우면 된다.`
+<br>
+
+````
+useEffect(() => {
+    console.log("Call the api");
+  }, []);
+````
+Watch "[ ]"라고 말하는 것과 같다. 위의 경우, 리액트가 볼 것이 없기 때문에 딱 한 번만 실행된다.
+<br>
+````
+useEffect(() => {
+    console.log("Search for", keyword);
+  }, [keyword]);
+````
+React에게 “watch keyword”라고 말하는 것과 같다. keyword가 바뀔 때만 실행된다.<br>
+만약 첫 렌더딩 때, Search for가 안 떴으면 좋겠다면 조건문을 이용하면 된다. 
+
+````
+useEffect(() => {
+    if(keyword !== ""){
+      console.log("Search for", keyword);
+    }
+  }, [keyword]);
+````
