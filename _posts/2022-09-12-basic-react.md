@@ -122,6 +122,7 @@ useEffect(() => {
   ````
 "[]"안에 여러 개를 넣을 수도 있다.
 <br>
+<br>
 
 ### CSS 적용
 전체 적용을 원한다면 .css 파일 만들어서 index.js에 import 해주면 된다. (global css)
