@@ -36,12 +36,29 @@ tags: React
 
 ### State?
 Basically where your data will be, 기본적으로 데이터가 저장되는 곳이다.<br>
-- state가 변하면 모든 것이 변한다. (render)
+- state가 변하면 계속 render된다.
 - 컴포넌트에서 동적인 값을 state라고 부르는데, `useState` 즉 state를 사용하여 값을 변경할 수 있다. 
 
 ````
 const [state, setState] = useState(initialState);
 const [데이터, 데이터변경함수] = useState(초깃값(생략 가능));
+````
+
+````
+import {useState} from "react";
+
+function App() {
+  const [counter, setValue] = useState(0);
+  const onClick = () => setValue((prev) => prev + 1);
+  return (
+    <div>
+      <h1>{counter}</h1>
+      <button>Click me</button>
+    </div>
+  );
+}
+
+export default App;
 ````
 
 <br>
