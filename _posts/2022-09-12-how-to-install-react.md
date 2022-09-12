@@ -69,7 +69,7 @@ npm audit fix --force
 Run `npm audit` for details.
 ````
 <br>
-**터미널에  yarn 설치하고 prop-types 설치하면 된다!**
+터미널에  yarn 설치하고 prop-types 설치하면 된다!
 
 ````
 npm install --global yarn
@@ -77,3 +77,4 @@ npm install --global yarn
 yarn add prop-types
 ````
 
+<br>
