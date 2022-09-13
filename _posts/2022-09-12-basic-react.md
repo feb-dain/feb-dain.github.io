@@ -69,7 +69,7 @@ export default App;
 <br>
 
 ### useEffect?
-If you want some code in my components only to run the first time and never again, then you should useEffect.<br>
+If you want some code in your components only to run the first time and never again, then you should useEffect.<br>
 state가 변할 때마다 렌더링되지 않고, 딱 한 번만 실행됐으면 좋겠다면 "useEffect"를 사용하면 된다.<br>
 
 ❗  첫 render할 때 console에 코드가 두 번 찍힐 경우, `index.js파일 안 React.StrictMode를 지우면 된다.`
