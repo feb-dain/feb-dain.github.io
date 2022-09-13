@@ -41,8 +41,8 @@ const player = {
 추가 또는 변경도 가능
 ```
 console.log(player);
-player.points = 15; //변경
-player.points = player.points + 15; // 15+15=30
-player.fav = "potato"; //추가
+player.points = 15;    //변경
+player.points = player.points + 15;    // 15+15=30
+player.fav = "potato";    //추가
 console.log(player.fav);
 ```
