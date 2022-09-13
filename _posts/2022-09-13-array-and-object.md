@@ -5,7 +5,7 @@ tags: JavaScript
 ---
 
 ### Array
-하나의 변수 안에 데이터 list를 가지는 것.
+- 하나의 변수 안에 데이터 list를 가지는 것.
 
 `변수명[index]`<br>
 → 배열 안에 있는 것을 index 번호로 불러올 수 있음. ❗️ 주의) 컴퓨터는 0부터 셈.
@@ -29,8 +29,8 @@ food.push('sandwich')    // ['pizza', 'chicken', 'burger', 'noodle']
 <br>
 
 ### Object
-Property를 가진 데이터를 저장하게 해줌<br>
-Array에 넣으면 배열 안에 있는 것이 무엇인지 설명이 불가능하기에 Object 이용.<br>
+- Property를 가진 데이터를 저장하게 해줌<br>
+- Array에 넣으면 배열 안에 있는 것이 무엇인지 설명이 불가능하기에 Object 이용.<br>
 
 ```
 const player = {
