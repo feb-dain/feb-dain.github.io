@@ -10,7 +10,7 @@ tags: JavaScript
 `변수명[index]`<br>
 → 배열 안에 있는 것을 index 번호로 불러올 수 있음. ❗️ 주의) 컴퓨터는 0부터 셈.
 ```
-const food = [pizza, chicken, burger, noodle]
+const food = ['pizza', 'chicken', 'burger', 'noodle']
 console.log(food[2])    //burger
 ```
 
@@ -22,8 +22,8 @@ console.log(food[2])    //burger
 `변수명.push("one")`<br> 
 → 새로운 배열 추가
 ```
-const food = [pizza, chicken, burger, noodle]
-food.push("sandwich")    // [pizza, chicken, burger, noodle, sandwich]
+const food = ['pizza', 'chicken', 'burger', 'noodle']
+food.push('sandwich')    // ['pizza', 'chicken', 'burger', 'noodle']
 ```
 
 <br>
@@ -34,7 +34,7 @@ Array에 넣으면 배열 안에 있는 것이 무엇인지 설명이 불가능�
 
 ```
 const player = {
-    name: "tomato",
+    name: 'tomato',
     points: 10,
     small: true,
 };
@@ -43,8 +43,8 @@ const player = {
 추가 또는 변경도 가능
 ```
 console.log(player);
-player.points = 15;    //변경
-player.points = player.points + 15;    // 15+15=30
-player.fav = "potato";    //추가
+player.points = 15;    //변경 {points: 15}
+player.points = player.points + 15;    // {points: 30}
+player.fav = 'potato';    //추가 {name: 'tomato', points: 30, small: true, fav: 'potato'}
 console.log(player.fav);
 ```
