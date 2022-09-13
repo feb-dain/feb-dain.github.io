@@ -16,10 +16,10 @@ tags: JavaScript
 
 ```
 let a = b;
-let a = c; ❌️ //재선언 불가능
+let a = c; ❌️    //재선언 불가능
 
 let a = b;
-a = c; //재할당 가능
+a = c;    //재할당 가능
 ```
 
 ```
