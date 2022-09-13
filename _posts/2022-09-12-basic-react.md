@@ -104,6 +104,8 @@ useEffect(() => {
   }, [keyword]);
 ````
 
+and 연산자를 이용해 조건을 여러 개로 설정할 수도 있다.
+
 ````
 useEffect(() => {
     if(keyword !== "" && keyword.length > 5){
@@ -111,8 +113,8 @@ useEffect(() => {
     }
   }, [keyword]);
 ````
-and 연산자를 이용해 조건을 여러 개로 설정할 수도 있다.
-<br>
+
+"[]"안에 여러 개를 넣을 수도 있다.
 
 ````
 useEffect(() => {
@@ -122,7 +124,6 @@ useEffect(() => {
     console.log("I run when keyword & counter change.");
   }, [keyword, counter])
   ````
-"[]"안에 여러 개를 넣을 수도 있다.
 <br>
 <br>
 
