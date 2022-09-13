@@ -23,7 +23,7 @@ console.log(food[2])    //burger
 → 새로운 배열 추가
 ```
 const food = [pizza, chicken, burger, noodle]
-food.    //b
+food.push("sandwich")    // [pizza, chicken, burger, noodle, sandwich]
 ```
 
 ## Object
