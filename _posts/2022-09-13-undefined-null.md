@@ -5,7 +5,6 @@ tags: JavaScript
 ---
 
 ## Undefined: 값이 정의되어있지 않다.
-
 변수는 인지 가능하지만 값이 정의되어 있지 않은 상태.
 ```
 const something;
