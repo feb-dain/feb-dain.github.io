@@ -26,6 +26,8 @@ const food = [pizza, chicken, burger, noodle]
 food.push("sandwich")    // [pizza, chicken, burger, noodle, sandwich]
 ```
 
+<br>
+
 ## Object
 Property를 가진 데이터를 저장하게 해줌<br>
 Array에 넣으면 배열 안에 있는 것이 무엇인지 설명이 불가능하기에 Object 이용.<br>
