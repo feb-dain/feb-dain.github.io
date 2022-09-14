@@ -118,3 +118,38 @@ calculator.times(14, 2);
 calculator.divided(16, 4);
 calculator.power(5, 3);
 ```
+<br>
+
+**Return?** 
+- 외부에 값을 꺼내기 위해선 return이 필요하다.
+- 함수 실행을 종료하고, 주어진 값을 함수 호출 지점으로 반환
+
+```
+const calculator = {
+    plus: function(a, b){
+	return a + b
+    },
+    minus: function(a, b){
+	return a - b
+    },
+    times: function(a, b){
+	return a * b
+    },
+    divided: function(a, b){
+	return a / b
+    },
+    power: function(a, b){
+	return a ** b
+    },
+};
+const plusResult = calculator.plus(6, 2);    // 8
+const minusResult = calculator.minus(plusResult, 3);    // 5
+const timesResult = calculator.times(14, minusResult);    // 70 
+const dividedResult = calculator.divided(timesResult, plusResult);    // 8.75
+const powerResult = calculator.power(dividedResult, 3);    // 669.921875
+```
+
+<br>
+➕ <a href="https://feb-dain.github.io/basic-javascript-03/"> 추가 설명 </a>
+<br>
+
