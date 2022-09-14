@@ -1,0 +1,65 @@
+---
+title:  "자바스크립트 요소와 이벤트 이해하기 + 게터, 세터"
+layout: post
+tags: JavaScript
+---
+
+### JavaScript에 있는 Elements(요소)와 Events(이벤트)를 확인하고 싶다면?
+MDN 사이트나 개발자 도구에서 많은 요소들과 이벤트들을 확인할 수 있다.
+
+#### 1. MDN
+
+[Element - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element)
+
+#### 2. console.dir();
+
+JS로 HTML 호출하는 방법
+
+- **getElementById()**: 해당 아이디 하나만 불러올 수 있다.
+- **getElementsByClassName()**: 해당 클래스명으로 불러올 수 있으며, 동일 요소가 있을 시 배열 형태로 불러온다.
+- **getElementsByTagName()**: 해당 태그를 불러올 수 있으며, 중복 요소가 있으면 배열 형태로 불러온다.
+- **querySelector()/querySelectorAll()**: CSS 형태로 선택할 수 있다 (ex. #id, .class, #id>h1)
+  - 중복 요소가 많을 시 querySelector는 첫번째 요소만, querySelectorAll은 해당하는 모든 요소를 배열 형태로 불러올 수 있다.
+  - querySelector() : 많이 사용됨
+
+<br>
+
+### Event
+- 어떤 행위를 하는 것 (클릭, 호버, wifi 온라인/오프라인 등)
+- console.dir()에서 onSomething은 모두 event
+- 모든 event는 JS가 listen할 수 있다. 
+- eventListener : event를 listen, 하지만 JS에게 무슨 event를 listen하고 싶은 지 알려줘야 함
+```
+function changeBg(){
+  document.body.style.backgroundColor = "tomato";
+}
+window.addEventListener("resize", changeBg);
+```
+= "Window에 resize 이벤트가 발생하면 changeBg 함수를 실행시켜줘."<br><br>
+
+### JS 실행 과정 (+ getter, setter)
+
+```
+<div class="hello">
+    <h1 style="color: blue;">Click</h1>
+</div>
+<script>
+    const h1 = document.querySelector("div.hello:first-child h1");
+
+    function titleClick(){
+        const currentColor = h1.style.color;    // getter, 색상을 "가져옴"
+        let newColor;    // 변수 선언, 상태 : empty
+        if (currentColor === "blue"){    // 현재 값 확인
+            newColor = "tomato";    // blue라면 tomato로 변경
+        }else{
+            newColor = "blue";    // tomato면 blue로 변경
+        } // 어떤 색상을 정할지 고민하는 과정
+        h1.style.color = newColor; 
+        // setter, 정한 색상 값을 "설정". newColor를 h1.style.color에 대입
+    }
+
+    h1.addEventListener("click", titleClick);
+</script>
+```
+
+<br>
