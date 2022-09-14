@@ -104,11 +104,13 @@ Ctrl + shift + ← or → 단어 선택" 하면 편함<br>
 키보드 단축키 설정
 <br>
 <br>
+
 <span style="background:#daebf2;"> Beginning/end of File </span><br>
 **Ctrl+home, ctrl+end**<br>
 파일의 맨 처음, 맨 끝으로 이동
 <br>
 <br>
+
 <span style="background:#daebf2;"> Insert line below </span><br>
 **Ctrl+enter**<br>
 코드 작성하다가 중간에 아래 줄로 이동하고 싶을 경우<br>
