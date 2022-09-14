@@ -1,7 +1,7 @@
 ---
 title:  "VS Code 유용한 단축키와 익스텐션 "
 layout: post
-tags: vs-code
+tags: VS-Code
 ---
 
 ## 단축키
