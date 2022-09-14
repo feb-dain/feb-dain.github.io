@@ -135,7 +135,7 @@ tags: VS-Code
 코드 포멧팅 - ctrl + , 눌러서 setting 창으로 이동<br>
 >❗ Prettier 가 적용이 안 될 경우<br> 
 >Default Formatter를 Prettier로 설정 변경해주면 정상적으로 동작<br>
->(Format on save 체크, tab width 2, 자바스크립트 quote style : single로 변경)
+>(Format on save 체크, tab width 2, JavaScript quote style : single로 변경)
 
 <br>
 
