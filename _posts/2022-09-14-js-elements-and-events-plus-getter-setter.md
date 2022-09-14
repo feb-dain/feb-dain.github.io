@@ -12,6 +12,9 @@ MDN 사이트나 개발자 도구에서 많은 요소들과 이벤트들을 확�
 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element"> Element - Web APIs | MDN </a>
 
 #### 2. console.dir();
+```
+console.dir(this);
+```
 
 
 
@@ -19,6 +22,13 @@ MDN 사이트나 개발자 도구에서 많은 요소들과 이벤트들을 확�
 
 
 
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/108778921/190188288-fa20e05a-c6f4-425e-ac87-6345a80fb8f6.png)
 
 <br>
 
@@ -51,6 +61,8 @@ window.addEventListener("resize", changeBg);
 <div class="hello">
     <h1 style="color: blue;">Click</h1>
 </div>
+
+
 <script>
     const h1 = document.querySelector("div.hello:first-child h1");
 
