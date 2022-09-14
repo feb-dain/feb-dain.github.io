@@ -14,7 +14,6 @@ MDN 사이트나 개발자 도구에서 많은 요소들과 이벤트들을 확�
 #### 2. console.dir();
 
 JS로 HTML 호출하는 방법
-
 - **getElementById()**: 해당 아이디 하나만 불러올 수 있다.
 - **getElementsByClassName()**: 해당 클래스명으로 불러올 수 있으며, 동일 요소가 있을 시 배열 형태로 불러온다.
 - **getElementsByTagName()**: 해당 태그를 불러올 수 있으며, 중복 요소가 있으면 배열 형태로 불러온다.
