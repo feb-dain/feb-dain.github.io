@@ -122,6 +122,7 @@ Ctrl + shift + ← or → 단어 선택" 하면 편함<br>
 <br>
 <br>
 
+-----
 ## 익스텐션
 #### 1. Material Theme
 테마 색상 변경
@@ -206,7 +207,7 @@ html에서 작성한 class, id 명 css에서 자동 완성
 ![image](https://user-images.githubusercontent.com/108778921/190126922-29cb225a-dd9f-49fe-9629-26a6e1d2a747.png)
 
 <br>
-👀 참고!<br>
+👀 출처!<br>
 <a href="https://cho001.tistory.com/208?category=863677"> 블로그 </a><br>
 <a href="https://www.youtube.com/watch?v=bS9yTI2fC0w&list=PLv2d7VI9OotQ1F92Jp9Ce7ovHEsuRQB3Y&index=10"> 유튜브 </a>
 <br>
