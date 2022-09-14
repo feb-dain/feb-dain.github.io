@@ -9,7 +9,7 @@ MDN 사이트나 개발자 도구에서 많은 요소들과 이벤트들을 확�
 
 #### 1. MDN
 
-[Element - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element)
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/Element"> Element - Web APIs | MDN </a>
 
 #### 2. console.dir();
 
@@ -62,4 +62,5 @@ window.addEventListener("resize", changeBg);
 </script>
 ```
 
+❗ 설명을 하기 위해 JS에서 style을 바꿨지만, style은 css에서 바꾸는 것이 좋다.
 <br>
