@@ -120,7 +120,7 @@ Ctrl + shift + ← or → 단어 선택" 하면 편함<br>
 <br>
 <br>
 
-##익스텐션
+## 익스텐션
 #### 1. Material Theme
 테마 색상 변경
 <br>
