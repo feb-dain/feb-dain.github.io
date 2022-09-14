@@ -24,6 +24,14 @@ JS로 HTML 호출하는 방법
 
 <br>
 
+
+
+
+
+
+
+
+
 ### Event
 - 어떤 행위를 하는 것 (클릭, 호버, wifi 온라인/오프라인 등)
 - console.dir()에서 onSomething은 모두 event
