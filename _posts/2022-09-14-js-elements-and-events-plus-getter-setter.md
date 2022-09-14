@@ -54,7 +54,7 @@ function changeBg(){
 }
 window.addEventListener("resize", changeBg);
 ```
-= " Window에 resize 이벤트가 발생하면 changeBg 함수를 실행시켜줘. "<br><br>
+= "Window에 resize 이벤트가 발생하면 changeBg 함수를 실행시켜줘."<br><br>
 
 ### JS 실행 과정 (+ getter, setter)
 
