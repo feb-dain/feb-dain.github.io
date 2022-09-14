@@ -184,9 +184,10 @@ html에서 작성한 class, id 명 css에서 자동 완성
 #### ♦️ Settings Sync
 - 모든 세팅(익스텐션,단축키,설정값,스니펫 등)을 Github에 동기화해둘 수 있음
 - 어디서든 같은 세팅을 할 수 있게 해줌
+<br>
 
-- 설정 동기화
-    
+설정 동기화
+   
       → 설정 동기화 할 곳에 Settings Sync 설치
     
       → Command Palette → sync 검색
