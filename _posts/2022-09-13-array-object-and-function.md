@@ -11,7 +11,7 @@ tags: JavaScript
 → 배열 안에 있는 것을 index 번호로 불러올 수 있음. ❗️ 주의) 컴퓨터는 0부터 셈.
 ```
 const food = ['pizza', 'chicken', 'burger', 'noodle']
-console.log(food[2])    //burger
+console.log(food[2]);    //burger
 ```
 
 
