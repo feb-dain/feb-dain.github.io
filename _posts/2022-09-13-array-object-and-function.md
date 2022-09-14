@@ -4,7 +4,7 @@ layout: post
 tags: JavaScript
 ---
 
-### Array
+### 1. Array
 - 하나의 변수 안에 데이터 list를 가지는 것.
 
 `변수명[index]`<br>
@@ -28,7 +28,7 @@ food.push('sandwich')    // ['pizza', 'chicken', 'burger', 'noodle']
 
 <br>
 
-### Object
+### 2. Object
 - Property를 가진 데이터를 저장하게 해줌<br>
 - Array에 넣으면 배열 안에 있는 것이 무엇인지 설명이 불가능하기에 Object 이용.<br>
 
@@ -51,7 +51,7 @@ console.log(player.fav);
 
 <br>
 
-### Function
+### 3. Function
 - 계속해서 사용할 수 있는 코드 조각
 - one of the fundamental building blocks in JavaScript<br>
 
@@ -93,7 +93,7 @@ sayHello("lynn", 21);    // Hello my name is lynn and I'm 21
 
 <br>
 
-### Object + Function
+### 4. Object + Function
 ```
 const calculator = {
     plus: function(a, b){
