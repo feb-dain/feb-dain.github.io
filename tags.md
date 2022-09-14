@@ -24,7 +24,7 @@ permalink: /tags/
 {% endfor %}
 {% for tag in tags %}
 <article>
-  <h4 id="{{ tag | slugify }}">{{ tag }} ( {{ li.length }} )</h4>
+  <h4 id="{{ tag | slugify }}">{{ tag }}</h4>
   <ul>
     {% for post in site.posts %}
     {% if post.tags contains tag %}
