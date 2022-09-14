@@ -135,7 +135,8 @@ Ctrl + shift + ← or → 단어 선택" 하면 편함<br>
 코드 포멧팅 - ctrl + , 눌러서 setting 창으로 이동<br>
 >❗ Prettier 가 적용이 안 될 경우<br> 
 >Default Formatter를 Prettier로 설정 변경해주면 정상적으로 동작<br>
->(Format on save 체크, tab width 2, 자바스크립트 quote style : single로 변경)<br>
+>(Format on save 체크, tab width 2, 자바스크립트 quote style : single로 변경)
+
 <br>
 
 #### 4. Bracket Pair Colorizer
@@ -206,3 +207,4 @@ html에서 작성한 class, id 명 css에서 자동 완성
 <a href="https://cho001.tistory.com/208?category=863677"> 블로그 </a><br>
 <a href="https://www.youtube.com/watch?v=bS9yTI2fC0w&list=PLv2d7VI9OotQ1F92Jp9Ce7ovHEsuRQB3Y&index=10"> 유튜브 </a>
 <br>
+
