@@ -73,7 +73,7 @@ window.addEventListener("resize", changeBg);
         if (currentColor === "blue"){    // 현재 값 확인
             newColor = "tomato";    // blue라면 tomato로 변경
         }else{
-            newColor = "blue";    // tomato면 blue로 변경
+            newColor = "blue";    // blue가 아니라면 blue로 변경
         } // 어떤 색상을 정할지 고민하는 과정
         h1.style.color = newColor; 
         // setter, 정한 색상 값을 "설정". newColor를 h1.style.color에 대입
