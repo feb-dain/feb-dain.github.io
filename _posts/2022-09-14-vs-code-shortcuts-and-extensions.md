@@ -28,8 +28,7 @@ tags: vs-code
 <details>
 <summary>💡 Tip!</summary>
 <div markdown="2">
-블럭 끝에 커서 생성한 다음에 "Ctrl + ← or → 단어 별 이동,<br>
-Ctrl + shift + ← or → 단어 선택" 하면 편함<br>
+블럭 끝에 커서 생성한 다음에 "Ctrl + ← or → (단어 별 이동), Ctrl + shift + ← or → (단어 선택)" 하면 편함<br>
 </div>
 </details>
 <br>
