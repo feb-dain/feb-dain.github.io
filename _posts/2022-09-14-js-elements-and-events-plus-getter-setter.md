@@ -13,7 +13,14 @@ MDN 사이트나 개발자 도구에서 많은 요소들과 이벤트들을 확�
 
 #### 2. console.dir();
 
-JS로 HTML 호출하는 방법
+
+
+
+
+
+
+
+### JS로 HTML 호출하는 방법
 - **getElementById()**: 해당 아이디 하나만 불러올 수 있다.
 - **getElementsByClassName()**: 해당 클래스명으로 불러올 수 있으며, 동일 요소가 있을 시 배열 형태로 불러온다.
 - **getElementsByTagName()**: 해당 태그를 불러올 수 있으며, 중복 요소가 있으면 배열 형태로 불러온다.
@@ -22,14 +29,6 @@ JS로 HTML 호출하는 방법
   - querySelector() : 많이 사용됨
 
 <br>
-
-
-
-
-
-
-
-
 
 ### Event
 - 어떤 행위를 하는 것 (클릭, 호버, wifi 온라인/오프라인 등)
@@ -42,7 +41,7 @@ function changeBg(){
 }
 window.addEventListener("resize", changeBg);
 ```
-= "Window에 resize 이벤트가 발생하면 changeBg 함수를 실행시켜줘."<br><br>
+= " Window에 resize 이벤트가 발생하면 changeBg 함수를 실행시켜줘. "<br><br>
 
 ### JS 실행 과정 (+ getter, setter)
 
