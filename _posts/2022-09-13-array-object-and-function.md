@@ -97,19 +97,19 @@ sayHello("lynn", 21);    // Hello my name is lynn and I'm 21
 ```
 const calculator = {
     plus: function(a, b){
-        console.log("6 plus 2: " + (a + b));    // 6 plus 2: 8
+        console.log(a + " plus " + b + ":" + (a + b));    // 6 plus 2: 8
     },
     minus: function(a, b){
-        console.log("10 minus 3: " + (a - b));    // 10 minus 3: 7
+        console.log(a + " minus " + b + ":" + (a - b));    // 10 minus 3: 7
     },
     times: function(a, b){
-        console.log("14 times 2: " + (a * b));    // 14 times 2: 28
+        console.log(a + " times " + b + ":" + (a * b));    // 14 times 2: 28
     },
     divided: function(a, b){
-        console.log("16 divided by 4: " + (a / b));    // 16 divided by 4: 4
+        console.log(a + " divided by " + b + ":" + (a / b));    // 16 divided by 4: 4
     },
     power: function(a, b){
-        console.log("5 to the power of 3: " + (a ** b));    // 5 to the power of 3: 125
+        console.log(a + " to the power of " + b + ":" + (a ** b));    // 5 to the power of 3: 125
     },
 };
 calculator.plus(6, 2);
