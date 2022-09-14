@@ -4,6 +4,7 @@ layout: post
 tags: vs-code
 ---
 
+## 단축키
 <span style="background:#daebf2;"> Multi Selection </span> <br>
 **👍 Ctrl+d**<br>
 한 단어를 선택하고 ctrl+d 반복적으로 눌러주면 중복 단어 자동으로 모두 선택됨 => 간단 삭제, 수정가능
@@ -137,4 +138,78 @@ Ctrl + shift + ← or → 단어 선택" 하면 편함<br>
 <br>
 <br>
 
+##익스텐션
+#### 1. Material Theme
+테마 색상 변경
+<br>
 
+#### 2. Marterial Icon Theme
+아이콘 테마, 아이콘이 조금 더 생동감 있게 바뀜
+<br>
+
+#### 3. Preitter - Code formatter
+코드 포멧팅 - ctrl + , 눌러서 setting 창으로 이동<br>
+>❗ Prettier 가 적용이 안 될 경우<br> 
+>Default Formatter를 Prettier로 설정 변경해주면 정상적으로 동작<br>
+>(Format on save 체크, tab width 2, 자바스크립트 quote style : single로 변경)<br>
+
+#### 4. Bracket Pair Colorizer
+괄호마다 코드에 색깔을 다르게 줌
+<br>
+
+#### 5. Indent-rainbow 
+- 들여쓰기 된 부분을 무지개 색깔로 하이라이트 표시 
+- 코드 읽을 때 도와줌
+<br>
+
+#### 6. Auto Rename Tag 👍
+앞에 태그를 바꾸면 뒤에 태그를 자동으로 바꿔줌
+<br>
+
+#### 7. CSS Peek 
+- html에서 커맨드나 컨트롤키를 누른 상태로 클릭하면 해당 css로 이동하게 해줌
+- html에서 css를 금방 찾게 해줌 
+<br>
+
+#### 8. HTML CSS Support
+해당 html에 적용되어있는 css 추천
+<br>
+
+#### 9. Live Server 👍
+브라우저에서 바로 확인 가능
+<br>
+
+#### 10. Html to Css auto completion 
+html에서 작성한 class, id 명 css에서 자동 완성
+<br>
+
+#### 11. Markdown preview
+- 커멘트 팔레트에 검색하면 md 파일 미리보기 볼 수 있음
+<br>
+
+#### ♦️ Settings Sync
+- 모든 세팅(익스텐션,단축키,설정값,스니펫 등)을 Github에 동기화해둘 수 있음
+- 어디서든 같은 세팅을 할 수 있게 해줌
+
+- 설정 동기화
+    
+      → 설정 동기화 할 곳에 Settings Sync 설치
+    
+      → Command Palette → sync 검색
+    
+      → Sync: 고급 옵션 → Sync: 설정 열기 
+    
+      → 저장했던 Gist ID & 엑세스 토큰 입력
+    
+
+![image](https://user-images.githubusercontent.com/108778921/190126892-7c890e16-c6de-4e36-9ed8-1082e1a6b51b.png)
+
+      → OS 에 맞게 Upload Key 타이핑 하거나 Command Palette 에서 Sync 검색 후 다운로드 설정
+
+![image](https://user-images.githubusercontent.com/108778921/190126922-29cb225a-dd9f-49fe-9629-26a6e1d2a747.png)
+
+<br>
+👀 참고!<br>
+<a href="https://cho001.tistory.com/208?category=863677"> 블로그 </a>
+<a href="https://www.youtube.com/watch?v=bS9yTI2fC0w&list=PLv2d7VI9OotQ1F92Jp9Ce7ovHEsuRQB3Y&index=10"> 유튜브 </a>
+<br>
