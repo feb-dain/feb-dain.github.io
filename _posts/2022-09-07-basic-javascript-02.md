@@ -99,22 +99,25 @@ isNaN : "Is not a number?" number인지 아닌지 확인할 수 있다.<br>
 - Boolean, 즉 true / false 값으로 알려준다.
 - number ❌ :  true
 - number ⭕ : false
-````
-const age = parseInt(prompt("How old you?"));
 
-if (isNaN(age) || age < 0){
-      alert("Please write a real positive number.");
-}else if(age < 18){
-      document.write("You're too young.");
-}else if(age >= 18 && age <= 50 ){
-      document.write("You can drink!");
-}else if(age > 50 && age <= 80){
-      document.write("you should work out.")
-}else if(age === 100){
-      document.write("Wow, are you 100?")
-}else if(age > 80){
-      document.write("You can do whatever you want.")
-}
+````
+
+        const age = parseInt(prompt("How old you?"));
+
+        if (isNaN(age) || age < 0){
+              alert("Please write a real positive number.");
+        }else if(age < 18){
+              document.write("You're too young.");
+        }else if(age >= 18 && age <= 50 ){
+              document.write("You can drink!");
+        }else if(age > 50 && age <= 80){
+              document.write("you should work out.")
+        }else if(age === 100){
+              document.write("Wow, are you 100?")
+        }else if(age > 80){
+              document.write("You can do whatever you want.")
+        }
+
 ````
 
 #### 5) 중첩 if문
