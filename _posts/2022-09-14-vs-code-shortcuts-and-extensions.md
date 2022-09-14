@@ -7,7 +7,7 @@ tags: vs-code
 ## 단축키
 <span style="background:#daebf2;"> Multi Selection </span> <br>
 **👍 Ctrl+d**<br>
-한 단어를 선택하고 ctrl+d 반복적으로 눌러주면 중복 단어 자동으로 모두 선택됨 => 간단 삭제, 수정가능
+한 단어를 선택하고 ctrl+d 반복적으로 눌러주면 중복 단어 자동으로 모두 선택됨 ⇒ 간단 삭제, 수정가능
 <br>
 <br>
 
@@ -28,7 +28,7 @@ tags: vs-code
 <details>
 <summary>💡 Tip!</summary>
 <div markdown="2">
-그 다음에 "Ctrl + ← or → 단어 별 이동,<br>
+블럭 끝에 커서 생성한 다음에 "Ctrl + ← or → 단어 별 이동,<br>
 Ctrl + shift + ← or → 단어 선택" 하면 편함<br>
 </div>
 </details>
