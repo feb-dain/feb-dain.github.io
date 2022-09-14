@@ -1,5 +1,5 @@
 ---
-title:  "VS code 유용한 단축키와 익스텐션 "
+title:  "VS ode 유용한 단축키와 익스텐션 "
 layout: post
 tags: vs-code
 ---
@@ -32,11 +32,8 @@ tags: vs-code
 Ctrl + shift + ← or → 단어 선택" 하면 편함<br>
 </div>
 </details>
-
-
-
 <br>
-<br>
+
 <span style="background:#daebf2;"> Move Word </span><br>
 **Ctrl+← or →**<br>
 단어 별 이동<br>
