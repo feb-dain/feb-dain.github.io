@@ -65,6 +65,7 @@ function onClick(e){
 }
 ```
 개발자 도구를 확인해보면 이런 식으로 다양한 정보(사용자가 클릭한 위치 좌표, path 등)를 볼 수 있다.
+
 ![image](https://user-images.githubusercontent.com/108778921/190352857-bc5c8435-2dc9-4e6a-915d-0d7f01b6a353.png)
 ![image](https://user-images.githubusercontent.com/108778921/190352868-a6915cbe-a41e-447a-bd23-0c3e8d1f8700.png)
 
