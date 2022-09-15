@@ -12,6 +12,12 @@ tags: GitHub-Blog
 
 ![image](https://user-images.githubusercontent.com/108778921/190304192-b64d96da-99cc-479d-a11a-aaffe7008d78.png)
 
+
+
+
+
+
+
 <br>
   2. 속성 만들기(Create Property) 버튼 클릭
 
