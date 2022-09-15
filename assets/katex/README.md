@@ -89,3 +89,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 ## License
 
 KaTeX is licensed under the [MIT License](http://opensource.org/licenses/MIT).
+
