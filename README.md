@@ -4,7 +4,7 @@ title: "About"
 ---
 
 <br>
-<h1 align="center">Hi there I'm a front-end developer 😎</h1>
+<h1 align="center">Hi there! I'm a front-end developer 😎</h1>
 
 <br>
 <h3 align="center"> I can use these things </h3>
