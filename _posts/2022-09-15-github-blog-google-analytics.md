@@ -66,7 +66,7 @@ tags: GitHub-Blog
 </script>
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp; ❗ 이미 '_config.yml' 파일에 범용 사이트 태그가 있다면 아래와 같이 추적 코드만 붙여넣으면 된다.
+❗ 이미 '_config.yml' 파일에 범용 사이트 태그가 있다면 아래와 같이 추적 코드만 붙여넣으면 된다.
  
 ```
 google_analytics: 
