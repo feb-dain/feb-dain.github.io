@@ -54,7 +54,30 @@ function changeBg(){
 }
 window.addEventListener("resize", changeBg);
 ```
-= "Window에 resize 이벤트가 발생하면 changeBg 함수를 실행시켜줘."<br><br>
+= "Window에 resize 이벤트가 발생하면 changeBg 함수를 실행시켜줘."<br>
+→ JS는 실행함과 동시에 **해당 함수에 첫번째 argument로 object를 넣는다. 이 object에는 event의 정보가 담겨있다.⭐**<br>
+⇒ <u>이벤트 정보를 알고 싶다면?</u> <br>
+아래와 같이 argument를 받아와서 확인할 수 있다.<br>
+```
+function onClick(e){
+	console.log(e);
+	alert("clicked");
+}
+```
+개발자 도구를 확인해보면 이런 식으로 다양한 정보(사용자가 클릭한 위치 좌표, path 등)를 볼 수 있다.
+![image](https://user-images.githubusercontent.com/108778921/190352857-bc5c8435-2dc9-4e6a-915d-0d7f01b6a353.png)
+![image](https://user-images.githubusercontent.com/108778921/190352868-a6915cbe-a41e-447a-bd23-0c3e8d1f8700.png)
+
+<br>
+
+`<a href="url">`의 default값은 클릭하면 해당 링크로 이동한다는 것이다. 이렇게 이벤트가 가진 default값이 발생하지 않도록 막고 싶다면 ".preventDefault()"를 사용하면 된다.<br>
+```
+function onLink(e){
+    e.preventDefault();
+}
+```
+  
+<br>
 
 ### JS 실행 과정 (+ getter, setter)
 
