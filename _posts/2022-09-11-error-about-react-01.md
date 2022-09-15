@@ -38,14 +38,15 @@ tags: Error
 <p> 이건 경로의 문제이다. 어떤 파일이 경로가 잘못되었는지 알아보자. </p>
 
 <p>
-  나의 경우 <span style="color:red">/user-name/repository-name.git/static/js/main.~~~.js net::ERR_ABORTED 404</span> 이 부분이 오류가 났는데,<br>
-  처음에는 '경로가 맞는데 왜 안되는 걸까?' 생각했다. 하지만 이 경로는 잘못된 것이 맞았다.
+  나의 경우 <span style="color:red">/user-name/repository-name.git/static/js/main.~~~.js net::ERR_ABORTED 404</span> 이 부분이 오류가 났는데,
+  처음에는 오타도 없고 경로 순서도 맞아서 뭐가 잘못된 건지 몰랐다. 하지만 컴퓨터가 잘못된 경로라고 하니 수정을 해야만 했다. 그래서 /user-name/repository-name.git/... 이런식의 경로가 아닌
+  <u>'html에서 자바스크립트 파일을 불러오는 방식으로 src 경로를 바꿔볼까?'</u>라는 생각을 했고, 그건 해결책이 맞았다! 🥳
 </p>
 
 1) index.html 파일에 들어간다. <br><br>
 2) `<script defer="defer" src="/user-name/repository-name.git/static/js/main.~~~.js"></script>` 수정할 코드를 찾는다. <br><br>
 3) `<script defer="defer" src="./static/js/main.8bc0a58a.js"></script>` 코드를 수정한다. <br><br>
 
-<p> 이렇게 바꿔주니 리액트 배포 성공!! 👏 </p>
+<p> 이렇게 바꾸면 리액트 배포 성공!! 👏 </p>
 
 
