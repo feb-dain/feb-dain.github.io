@@ -25,7 +25,7 @@ tags: GitHub-Blog
 
 <br>
 3) 순서대로 작성<br>
-원하는 속성 이름 작성하고, 시간대는 한국 설정 → 고급 옵션 보기(Show advenced options) 클릭 → 유니버설 애널리틱스 속성 만들기 오른쪽 버튼 클릭 → 웹사이트 url 작성 → 다음 버튼 클릭
+원하는 속성 이름 작성하고, 시간대/통화는 한국/원 설정 → 고급 옵션 보기(Show advenced options) 클릭 → 유니버설 애널리틱스 속성 만들기 오른쪽 버튼 클릭 → 웹사이트 url 작성 → 다음 버튼 클릭
 
 ![image](https://user-images.githubusercontent.com/108778921/190304815-9bded508-9437-4708-b5ec-2e7f76e9c3f7.png)
 
