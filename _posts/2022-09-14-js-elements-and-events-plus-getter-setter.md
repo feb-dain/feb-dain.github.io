@@ -48,6 +48,7 @@ console.dir(this);
 - console.dir()에서 onSomething은 모두 event
 - 모든 event는 JS가 listen할 수 있다. 
 - eventListener : event를 listen, 하지만 JS에게 무슨 event를 listen하고 싶은 지 알려줘야 함
+
 ```
 function changeBg(){
   document.body.style.backgroundColor = "tomato";
