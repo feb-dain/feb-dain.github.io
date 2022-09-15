@@ -74,7 +74,7 @@ google_analytics:
 ```
 
 <br>
-10) '_layouts' 폴더 안 default.html파일 </footer>태그 아래에 아래 코드를 {} 괄호 안에 넣어서 붙여넣기
+10) '_layouts' 폴더 안 default.html파일 </footer>태그 아래에 아래 코드를 {} 중괄호 안에 넣어서 붙여넣기
 
 ```
 % include analytics.html % 
