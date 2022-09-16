@@ -1,10 +1,10 @@
 ---
-title:  "number와 JSON string 관련 메소드"
+title:  "number와 JSON string 관련 메서드"
 layout: post
 tags: JavaScript
 ---
 
-## 여러 number 메소드 중에 자주 사용되는 2가지 메소드
+## 여러 number 메서드 중에 자주 사용되는 2가지 메서드
 
 ### parseInt
 string → number로 바꿔준다.
@@ -43,12 +43,12 @@ const age = parseInt(prompt("How old are you?"));
       }
 ```
 
-✨ 더 다양한 number 관련 메소드는 <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">여기서</a>
+✨ 더 다양한 number 관련 메서드는 <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">여기서</a>
 확인할 수 있다. (<a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number">한국어 번역</a>)
 
 <br>
 
-✨ string 관련 자바스크립트 메소드는 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">여기서</a>
+✨ string 관련 자바스크립트 메서드는 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">여기서</a>
 확인할 수 있다. (<a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String">한국어 번역</a>)
 
 <br>
