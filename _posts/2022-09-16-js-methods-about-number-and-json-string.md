@@ -35,7 +35,7 @@ const age = parseInt(prompt("How old are you?"));
       }else if(age >= 18 && age <= 50 ){
           document.write("You can drink!");
       }else if(age > 50 && age <= 80){
-          document.write("you should work out.")
+          document.write("You should work out.")
       }else if(age === 100){
           document.write("Wow, are you 100?")
       }else if(age > 80){
