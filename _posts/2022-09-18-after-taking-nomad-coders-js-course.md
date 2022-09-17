@@ -1,7 +1,7 @@
 ---
 title:  "[회고] 바닐라 JS로 크롬앱 만들기 강의를 듣고"
 layout: post
-tags: lookback
+tags: Lookback
 ---
 
 <h4 style="background:#e7f3f8;"> 👍 배운 것 </h4>
