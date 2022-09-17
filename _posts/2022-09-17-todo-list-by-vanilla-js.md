@@ -4,7 +4,7 @@ layout: post
 tags: JavaScript
 ---
 
-<a href="https://nomadcoders.co/javascript-for-beginners/lectures/1705">노마드코더 강의</a>를 보면서 같이 To-do list를 만들었고, 이를 만들면서 자바스크립트를 더 잘 이해할 수 있었다!
+<a href="https://nomadcoders.co/javascript-for-beginners/lectures/1705">노마드코더 강의</a>를 보면서 같이 To-do list를 만들었고, 이를 만들면서 자바스크립트를 더 잘 이해할 수 있었다!<br>
 
 ---
 
