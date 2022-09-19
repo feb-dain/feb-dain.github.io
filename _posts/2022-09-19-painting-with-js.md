@@ -5,12 +5,12 @@ tags: JavaScript
 ---
 
 ### 1. 우선 HTML 파일에 canvas 태그를 만든다.
-```html
+```
 <canvas></canvas>
 ```
 
 ### 2. ( CSS로 그림판을 생성한다. ) 생략 가능
-```css
+```
 canvas {
     width: 800px;
     height: 800px;
