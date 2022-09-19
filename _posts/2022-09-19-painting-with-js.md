@@ -158,5 +158,7 @@ canvas.addEventListener("mousemove", onClick); // 움직이면 선이 생김
 ```
 
 원리를 이해해야 하고 위의 과정들이 익숙해져야 한다. ⇒ 많이 연습하기!! 💪<br>
-<br>
 
+With <a href="https://nomadcoders.co/javascript-for-beginners-2/lectures/1710">노마드 코더 바닐라 JS로 그림판 만들기</a>
+<br>
+<br>
