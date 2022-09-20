@@ -158,7 +158,7 @@ function colorChange(e){
     ctx.strokeStyle = ctx.fillStyle = e.target.value;
 }
 function colorClick(e){
-    const colorValue = e.target.dataset.color; // dataset에 접근해서 미리 설정한 color 추출
+    const colorValue = e.target.dataset.color;    // dataset에 접근해서 미리 설정한 color 추출
     ctx.strokeStyle = ctx.fillStyle = color.value = colorValue;    
     // 클릭한 컬러 color에 동기화
 }
