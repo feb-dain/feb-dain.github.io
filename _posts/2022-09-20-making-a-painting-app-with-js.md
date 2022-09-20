@@ -74,7 +74,7 @@ let isPainting = false;
 function cancelPainting(){
     isPainting = false;
     ctx.beginPath();    // 마우스를 움직일 때마다 새로운 path 생성
-		// 도중에 선 굵기 변경해도 이전 선에 영향을 안 주기 위함.
+    // 도중에 선 굵기 변경해도 이전 선에 영향을 안 주기 위함.
 }
 function lineWidthChange(e){
     ctx.lineWidth = e.target.value;    // 변화를 캐치
