@@ -155,7 +155,7 @@ let todos = [];
 if(savedTodos !== null){
     const parsedTodos = JSON.parse(savedTodos);
     // 저장된 배열이 존재하면 저장된 배열 + 새로운 배열 추가 해줘
-	todos = parsedTodos;
+    todos = parsedTodos;
     parsedTodos.forEach(showTodo);
 }
 ```
@@ -211,7 +211,7 @@ forEach와 비슷하다.
 ```
 function filterEx(item){
 	return item !== 3 
-	// item이 3이 아니면 return ture! // [1,2,4,5]
+	// item이 3이 아니면 return true! // [1,2,4,5]
 	// item이 3일 경우 return false, 따라서 3인 item은 사라진다.
 	// 다시 말해, 3이 아닌 모든 item은 필터에 통과되는 것.
 }
