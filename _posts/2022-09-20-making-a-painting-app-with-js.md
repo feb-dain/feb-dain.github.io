@@ -52,6 +52,7 @@ canvas.addEventListener("mouseup", cancelPainting);
 //canvas 밖으로 나갔을 때, 다시 누르지 않아도 그려지는 오류 고치기
 canvas.addEventListener("mouseleave", cancelPainting);
 ```
+<br>
 
 ### 1-1. 선의 굵기 바꾸기
 ```
@@ -90,6 +91,7 @@ lineWidth.addEventListener("change", lineWidthChange)
        value="5" step="0.5" />
 <!-- step: 단계 변경 `기본 : 1->2... step 0.5 : 1 -> 1.5...` -->
 ```
+<br>
 
 ### 1-2. 색상 변경
 ```
@@ -106,6 +108,7 @@ function colorChange(e){
 // 선 색상 변경
 color.addEventListener("change", colorChange);
 ```
+<br>
 
 ### 1-3. 색상 변경 팔레트 제공
 
@@ -130,7 +133,6 @@ HTML
    >윈도우: shift + alt + i
    
 <br>
-
 CSS
 ```
 /* 팔레트 */
@@ -170,6 +172,7 @@ colorOptions.forEach((color) => color.addEventListener("click", colorClick));
 // why? colorOptions은 배열이 아니라 HTMLcollection이기 때문에 가져올 수 없어서
 // => 배열로 만들어줘야 한다. Array.from();
 ```
+<br>
 
 ### 1-4. 배경색 채우기, 리셋, 지우개
 ```
@@ -244,6 +247,8 @@ function onEraser(){
     modeBtn.innerText = "Fill";
 }
 ```
+<br>
+
 ### 1-5. 이미지 업로드
 ```
 <input type="file" accept="image/*" id="file" />
@@ -267,6 +272,7 @@ function fileChange(e){
 
 file.addEventListener("change", fileChange);
 ```
+<br>
 
 ### 1-6. 텍스트 입력
 ```
@@ -291,6 +297,7 @@ function dbClick(e){
 
 canvas.addEventListener("dblclick", dbClick);    // ❗ 오타 주의 "dbl"click임!
 ```
+<br>
 
 ### 1-7. 이미지 저장
 ```
