@@ -45,7 +45,7 @@ tags: Error
 
 1) index.html 파일에 들어간다. <br><br>
 2) `<script defer="defer" src="/user-name/repository-name.git/static/js/main.~~~.js"></script>` 수정할 코드를 찾는다. <br><br>
-3) `<script defer="defer" src="./static/js/main.8bc0a58a.js"></script>` 코드를 수정한다. <br><br>
+3) `<script defer="defer" src="./static/js/main.~~~.js"></script>` 코드를 수정한다. <br><br>
 
 <p> 이렇게 바꾸면 리액트 배포 성공!! 👏 </p>
 
