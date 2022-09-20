@@ -128,7 +128,7 @@ HTML
 <!-- 속성 data-"": ""안에 원하는 값(string) 넣을 수 있다.  -->
 <!-- 값은 dateset에 나와있다. -->
 ```
-💡 <열 일괄 선택 단축키>
+💡 열 일괄 선택 단축키
    >맥: cmd + shift + L<br>
    >윈도우: shift + alt + i
    
@@ -257,7 +257,6 @@ function onEraser(){
 ```
 const file = document.getElementById("file");
 
-// 이미지 업로드
 function fileChange(e){
     const file = e.target.files[0];
     const url = URL.createObjectURL(file);    // 브라우저는 url로 파일을 불러온다. // 다른 브라우저에서는 사용 불가능한 url 
