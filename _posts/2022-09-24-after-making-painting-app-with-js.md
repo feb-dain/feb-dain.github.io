@@ -47,7 +47,7 @@ tags: Lookback
 포토샵 작업까지 일일이 해야 해서 오래 걸리겠지만… 아니면 오픈 소스로 만들어진 걸 응용해 봐도 재밌을 것 같다.
 
 👇 아래 사이트 참고해서 나중에 꼭 해볼 것!<br>
-https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations">Canvas_API</a>
 
 <br>
 <br>
