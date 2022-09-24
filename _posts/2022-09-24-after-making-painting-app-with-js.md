@@ -13,6 +13,14 @@ tags: Lookback
 
 🧐 <span style="background:#e7f3f8;"> 기여도 100% 작업? </span>
 
+
+
+
+
+
+
+
+
 <a href="https://nomadcoders.co/javascript-for-beginners-2/lectures/3732">노마드 코더 강의</a>를 듣고 나서 내가 직접한 것은 다음과 같다. 
 
 1. 지우개( 하얀색 → 바탕색이랑 연동 ) 만들기
