@@ -46,9 +46,8 @@ tags: Lookback
 이걸 응용해서 움직이는 배경, 모션 같은 것도 만들던데 다음에 기회가 된다면 직접 만들어보고 싶다. 
 포토샵 작업까지 일일이 해야 해서 오래 걸리겠지만… 아니면 오픈 소스로 만들어진 걸 응용해 봐도 재밌을 것 같다.
 
-👇 아래 사이트 참고해서 나중에 꼭 해볼 것!
-
-[Basic animations - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations)
+👇 아래 사이트 참고해서 나중에 꼭 해볼 것!<br>
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations
 
 <br>
 <br>
