@@ -133,6 +133,10 @@ function MovieApp(){
 ```
 
 <br>
+
+<img width="513" alt="image" src="https://user-images.githubusercontent.com/108778921/192147639-79af4e49-18bf-4940-af59-6c133e7693fd.png">
+
+<br>
 영화 api 불러오기 완료! 
 <br>
 <br>
