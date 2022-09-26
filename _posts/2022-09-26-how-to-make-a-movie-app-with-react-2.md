@@ -39,6 +39,7 @@ return 이후가 페이지에 보여지는 코드인데, 보다시피 너무 복
 그렇다면 어떻게 더 간결하게 만들 수 있을까?<br>
 🤓 리액트의 장점을 활용하자! **바로 여러 Component를 만들어 사용하면 된다.**
 <br>
+<br>
 
 ### React Router 사용하기
 
@@ -133,7 +134,7 @@ import PropTypes from "prop-types";
 import {Link} from "react-router-dom"
 
 
-// 아래 props(properties)를 부모 컴포넌트로부터 정보를 받아온다!
+// 아래 props(properties)는 부모 컴포넌트로부터 정보를 받아온다!
 function Movie({ coverImg, title, year, summary, genres }){
     return (
         <div>
@@ -191,11 +192,13 @@ import {Link} from "react-router-dom"
 ### 다이나믹 url 얻기
 
 1. 경로에 " :id " 추가
+
 ```
 <Route path="/movie/:id" element={<Detail />} />
 ```
 
 2. Home.js에서 id를 가져온 다음 
+
 ```
 {movies.map((movie) => (
   <Movie 
@@ -204,6 +207,7 @@ import {Link} from "react-router-dom"
 ```
 
 3. 부모 컴포넌트에서 id값을 가져오면 된다.
+
 ```
 function Movie({ id, coverImg, title, year, summary, genres })
 
@@ -247,6 +251,7 @@ export default Detail;
 
 +summary가 너무 짧거나 너무 긴 경우 발생, 규칙성있게 만들어 주고 싶다.<br>
 → **Slice 메서드를 이용**해 235 글자 이하로 설정하자! summary는 string이기 때문에 메서드 slice 사용 가능.
+
 ```
 <p>{summary.length > 235 ? `${summary.slice(0, 235)}...` : summary}</p>
 ```
@@ -260,8 +265,7 @@ export default Detail;
 <br>
 <br>
 
-여기까지가 <a href="https://nomadcoders.co/react-for-beginners/lectures/3257">
-  노마드 코더의 React 강의</a>끝이다.<br>
+여기까지가 <a href="https://nomadcoders.co/react-for-beginners/lectures/3257">노마드 코더의 React 강의</a>끝이다.<br>
   
 ---
 
@@ -305,6 +309,7 @@ function Detail(){
 }
 export default Detail;
 ```
+
 ❗ JSX식은 무조건 부모 하나가 필요하다.
 
 <br>
