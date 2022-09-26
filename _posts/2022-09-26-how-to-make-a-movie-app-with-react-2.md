@@ -191,13 +191,13 @@ import {Link} from "react-router-dom"
 
 ### 다이나믹 url 얻기
 
-1. 경로에 " :id " 추가
+1) 경로에 " :id " 추가
 
 ```
 <Route path="/movie/:id" element={<Detail />} />
 ```
 
-2. Home.js에서 id를 가져온 다음 
+2) Home.js에서 id를 가져온 다음 
 
 ```
 {movies.map((movie) => (
@@ -206,7 +206,7 @@ import {Link} from "react-router-dom"
       id={movie.id}    // 여기 id 추가
 ```
 
-3. 부모 컴포넌트에서 id값을 가져오면 된다.
+3) 부모 컴포넌트에서 id값을 가져오면 된다.
 
 ```
 function Movie({ id, coverImg, title, year, summary, genres })
