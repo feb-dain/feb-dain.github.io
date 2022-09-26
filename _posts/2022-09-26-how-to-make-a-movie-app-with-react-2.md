@@ -222,7 +222,7 @@ Movie.propTypes = {
 <br>
 
 ### url에서 id 값 알아내는 방법
-React Router의 useParams 사용하면 된다!
+React Router의 `useParams` 사용하면 된다!
 
 ```
 import {useParams} from "react-router-dom"
