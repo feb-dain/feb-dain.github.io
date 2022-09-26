@@ -206,7 +206,7 @@ import {Link} from "react-router-dom"
       id={movie.id}    // 여기 id 추가
 ```
 
-3) 부모 컴포넌트에서 id값을 가져오면 된다.
+3) 자식 컴포넌트(Movie.js)에서 부모 컴포넌트(Home.js)의 id값을 가져오면 된다.
 
 ```
 function Movie({ id, coverImg, title, year, summary, genres })
