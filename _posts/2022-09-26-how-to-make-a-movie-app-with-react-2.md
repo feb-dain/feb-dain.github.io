@@ -191,7 +191,7 @@ import {Link} from "react-router-dom"
 
 ### 다이나믹 url 얻기
 
-1) 경로에 " :id " 추가
+1) 경로에 ":id"  추가
 
 ```
 <Route path="/movie/:id" element={<Detail />} />
