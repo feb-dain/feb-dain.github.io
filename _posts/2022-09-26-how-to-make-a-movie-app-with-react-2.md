@@ -219,6 +219,8 @@ Movie.propTypes = {
     id: PropTypes.number.isRequired,
 ```
 
+<br>
+
 ### url에서 id 값 알아내는 방법
 React Router의 useParams 사용하면 된다!
 
@@ -249,7 +251,7 @@ function Detail(){
 export default Detail;
 ```
 
-+summary가 너무 짧거나 너무 긴 경우 발생, 규칙성있게 만들어 주고 싶다.<br>
++summary가 너무 짧거나 너무 긴 경우 발생, 규칙성있게 만들어 주고 싶다면?<br>
 → **Slice 메서드를 이용**해 235 글자 이하로 설정하자! summary는 string이기 때문에 메서드 slice 사용 가능.
 
 ```
@@ -265,7 +267,7 @@ export default Detail;
 <br>
 <br>
 
-여기까지가 <a href="https://nomadcoders.co/react-for-beginners/lectures/3257">노마드 코더의 React 강의</a>끝이다.<br>
+여기까지가 <a href="https://nomadcoders.co/react-for-beginners/lectures/3257">노마드 코더의 React 강의</a> 끝이다.<br>
   
 ---
 
