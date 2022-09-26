@@ -262,7 +262,7 @@ export default Detail;
 <a href="https://feb-dain.github.io/basic-javascript-04/">베이직 자바스크립트 4탄</a>
 
 +추가 상식<br>
-**breaking Change란?** <br>
+**Breaking Change란?** <br>
 버전을 업데이트 하면서 코드가 깨졌으니 예전 방식을 지우고 새로운 방식으로 코드를 작성해야 한다는 뜻이다.
 <br>
 <br>
