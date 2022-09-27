@@ -1,5 +1,5 @@
 ---
-title:  "CSS  사용법"
+title:  "CSS Grid 사용법"
 layout: post
 tags: CSS
 ---
