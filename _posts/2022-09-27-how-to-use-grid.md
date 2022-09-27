@@ -125,7 +125,7 @@ body {
 }
 header, footer {
 	background: black;
-  color: white;
+  	color: white;
 }
 header {
 	grid-area: header;
