@@ -173,19 +173,19 @@ body {
 }
 header, footer {
 	background: black;
-  color: white;
+  	color: white;
 }
 header {
 	grid-area: header;
-  line-height: 100px;
+  	line-height: 100px;
 }
 footer {
 	grid-area: footer;
-  line-height: 50px;
+ 	line-height: 50px;
 }
 .main {
 	grid-area: main;
-  vertical-align: middle;
+        vertical-align: middle;
 }
 aside {
 	grid-area: aside;
@@ -193,7 +193,7 @@ aside {
 }
 div { 
 	display: inline-block;
-  height: 100%;
+        height: 100%;
 	vertical-align: middle; 
 }
 
