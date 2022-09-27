@@ -4,7 +4,7 @@ layout: post
 tags: CSS
 ---
 
-![image](https://user-images.githubusercontent.com/108778921/192550556-02188777-202e-41cc-baf2-a2328c255975.png)
+![image](https://user-images.githubusercontent.com/108778921/192562365-619aa7ff-2134-40fb-bb1e-bba419d70283.png)
 
 <p> — 열(columns) : grid-template-columns </p>
 <p> | 행(rows) : grid-template-rows </p>
