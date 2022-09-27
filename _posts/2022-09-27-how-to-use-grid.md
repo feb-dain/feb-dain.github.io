@@ -105,13 +105,13 @@ grid-row: 1/3;
 
 <br>
 
-### 배운 것을 스스로 적용하며 확인해보자!
+### 배운 것을 바탕으로 혼자 사용해보자!
 
 ![image](https://user-images.githubusercontent.com/108778921/192558383-c4386468-7988-490e-a2fa-d85294c3372b.png)
 
 ```
 body {
-	width:100vw;
+	width: 100vw;
 	height: 100vh;
 	margin: 0;
 	display: grid;
