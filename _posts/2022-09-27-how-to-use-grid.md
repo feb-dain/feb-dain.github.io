@@ -47,8 +47,8 @@ grid-auto-... 사용!
 	grid-template-columns: repeat(5, 1fr);
 	grid-auto-rows: 150px;
 	grid(-column/row)-gap: 1rem;    /* grid cell 사이의 여백 */
-  /* column 이나 row, 둘 중 하나만 선택해 여백을 줄 수 있다. */ 
-  /* (= padding: 10px;) */ 
+	/* column 이나 row, 둘 중 하나만 선택해 여백을 줄 수 있다. */ 
+	/* (= padding: 10px;) */ 
 }
 ```
 
@@ -80,7 +80,7 @@ grid-row: 1/3;
 .image {
 	width: 100%;    /* 부모가 기준 */
 	height: 100%;
-  object-fit: cover;    /* 사진을 박스 안에 어떻게 들고올 것인지 결정 */
+  	object-fit: cover;    /* 사진을 박스 안에 어떻게 들고올 것인지 결정 */
 }
 ```
 ```
