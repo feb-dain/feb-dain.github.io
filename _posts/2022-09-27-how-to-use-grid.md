@@ -4,8 +4,6 @@ layout: post
 tags: CSS
 ---
 
-![image](https://user-images.githubusercontent.com/108778921/192743442-f5420a73-45ad-4d2c-87b4-04a4025378fb.png)
-
 <p> — 열(columns) : grid-template-columns </p>
 <p> | 행(rows) : grid-template-rows </p>
 
@@ -15,6 +13,12 @@ tags: CSS
 
 
 
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/108778921/192751891-7ecc619b-95cd-4039-990b-cc070bcb0239.png)
 
 ```
 .container {
