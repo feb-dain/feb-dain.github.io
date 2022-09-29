@@ -17,7 +17,7 @@ tags: React
 
 위 사이트에 회원가입을 하고, `프로필 > 설정 > API`에 들어가 API key를 만들면 된다.<br>
 "https://api.themoviedb.org/3/movie/550?api_key=(key)" 👈 (key) 부분에 개인 key를 입력하고 fetch를 사용해 api를 가져오면 끝!<br>
-어떻게 api를 활용할지는 공식 사이트 설명(ex. <a href="https://developers.themoviedb.org/3/movies/get-movie-images">이미지 사용</a>)과
+api를 어떻게 활용할지는 공식 사이트 설명(ex. <a href="https://developers.themoviedb.org/3/movies/get-movie-images">이미지 사용</a>)과
 json 파일을 참고하면 된다. <br>
 
 🤔 무슨 페이지를 넣을지, route는 어떻게 할 지, 디자인은 어떻게 할 지 고민이다. 투두 리스트나 캔버스 디자인은 바로 생각나서 지체없이 코딩했는데...<br>
@@ -34,7 +34,6 @@ json 파일을 참고하면 된다. <br>
 
 
 - 서브페이지
-
 >영화 스틸컷, 제목, 개봉 연도, 장르, 별점, 러닝 타임, 원제, 짧은 소개, 줄거리 적절하게 배치...
 
 <br>
