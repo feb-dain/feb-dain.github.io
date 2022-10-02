@@ -132,7 +132,7 @@ function App(){
 ```
 function App(){
     const prevRef = useRef(null);
-	  const nextRef = useRef(null);
+    const nextRef = useRef(null);
 
     const settings = {
         slidesOffsetBefore: 0,
