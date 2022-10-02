@@ -14,3 +14,19 @@ tags: React
 ```
 npm i react-slick slick-carousel
 ```
+
+
+
+
+
+
+
+### 2. 사용할 파일에 import
+
+```
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+```
+
+### 3. 기본 형태 붙여넣기
