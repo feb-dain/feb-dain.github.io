@@ -15,6 +15,16 @@ tags: React
 npm i react-slick slick-carousel
 ```
 
+
+
+
+
+
+
+
+
+
+
 ### 2. 사용할 파일에 import
 
 ```
