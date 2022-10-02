@@ -36,6 +36,18 @@ tags: React
 <br>
 
 ### 5. index.js에서 필요한 것 빼고 다 지우기
+````
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+````
 <span style="color:gray"> _깔끔하게 처음부터 시작하기 위해서다._ </span>
 
 <br>
