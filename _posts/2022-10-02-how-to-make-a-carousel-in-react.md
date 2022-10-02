@@ -96,5 +96,42 @@ SwiperCore.use([Navigation, Pagination]);
 ### 3. 기본 형태 붙여넣기
 
 ```
+function App(){
+  const settings = {
+        slidesOffsetBefore: 0,
+        slidesOffsetAfter : 24,
+        slidesPerView: 1.8,
+        spaceBetween: 8,
+        initialSlide: 1,
+        centeredSlides: false,
+  }
+
+  return (
+        <Swiper
+              {...settings}
+              breakpoints={{
+                  375: {
+                      spaceBetween: 8,
+                      slidesPerView: 2.5
+                  },
+                  768: {
+                      spaceBetween: 16,
+                      slidesPerView: 4.5
+                  },
+                  1024: {
+                      spaceBetween: 24,
+                      slidesPerView: 4.8
+                  }
+              }}
+          >
+          <SwiperSlide>
+            슬라이더
+          </SwiperSlide>
+        </Swiper>
+  );
+}
 ```
 
+끝! 🤗<br>
+Swiper를 이용해 편하게 슬라이더를 만들었다. 영화 앱을 만들면서 Pagination은 사용하지 않았고, Navigation(화살표)은 커스텀해서 사용했다.
+<br>
