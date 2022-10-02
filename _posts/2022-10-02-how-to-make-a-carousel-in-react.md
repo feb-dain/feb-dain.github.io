@@ -107,23 +107,7 @@ function App(){
   }
   
   return (
-        <Swiper
-              {...settings}
-              breakpoints={{
-                  375: {
-                      spaceBetween: 8,
-                      slidesPerView: 2.5
-                  },
-                  768: {
-                      spaceBetween: 16,
-                      slidesPerView: 4.5
-                  },
-                  1024: {
-                      spaceBetween: 24,
-                      slidesPerView: 4.8
-                  }
-              }}
-          >
+        <Swiper {...settings}>
           <SwiperSlide>
             슬라이더
           </SwiperSlide>
