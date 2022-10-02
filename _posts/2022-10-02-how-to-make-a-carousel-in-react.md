@@ -105,33 +105,58 @@ function App(){
         initialSlide: 1,
         centeredSlides: false,
   }
+```
 
-  return (
-        <Swiper
-              {...settings}
-              breakpoints={{
-                  375: {
-                      spaceBetween: 8,
-                      slidesPerView: 2.5
-                  },
-                  768: {
-                      spaceBetween: 16,
-                      slidesPerView: 4.5
-                  },
-                  1024: {
-                      spaceBetween: 24,
-                      slidesPerView: 4.8
-                  }
-              }}
-          >
-          <SwiperSlide>
-            슬라이더
-          </SwiperSlide>
-        </Swiper>
+끝! 🤗
+
+<p>Swiper를 이용해 편하게 슬라이더를 만들었다. 영화 앱을 만들면서 Pagination은 사용하지 않았고, Navigation(화살표)은 커스텀해서 사용했다.</p>
+
+<br>
+<br>
+
+### Swiper 화살표 커스텀하기
+
+```
+function App(){
+    const prevRef = useRef(null);
+	  const nextRef = useRef(null);
+
+    const settings = {
+        slidesOffsetBefore: 0,
+        slidesOffsetAfter : 24,
+        slidesPerView: 1.8,
+        spaceBetween: 8,
+        initialSlide: 1,
+        centeredSlides: false,
+
+        // 화살표 커스텀
+        navigation: {
+            prevEl: prevRef.current,
+            nextEl: nextRef.current,
+        },
+        onBeforeInit: (swiper) => {
+            swiper.params.navigation.prevEl = prevRef.current;
+            swiper.params.navigation.nextEl = nextRef.current;
+            swiper.navigation.update();
+        },
+    };
+    return (
+            <div className={styles.nav}>
+                <button ref={prevRef}><BsFillCaretLeftSquareFill /></button>
+                <button ref={nextRef}><BsFillCaretRightSquareFill /></button>
+            </div>
   );
 }
 ```
 
-끝! 🤗<br>
-Swiper를 이용해 편하게 슬라이더를 만들었다. 영화 앱을 만들면서 Pagination은 사용하지 않았고, Navigation(화살표)은 커스텀해서 사용했다.
+<br>
+<br>
+
+➕
+<a href="https://velog.io/@sohee-k/React-TypeScript-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-Swiper-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0image-slider-library)">
+Velog</a>
+<br>
+화살표 커스텀 할 때 위 블로그를 참고했고, 개발자 도구로 Element를 확인해가면서 원하는 디자인으로 만들었다.
+스와이퍼 라이브러리를 이용하면 화살표 커스텀은 그리 어렵지 않다.
+<br>
 <br>
