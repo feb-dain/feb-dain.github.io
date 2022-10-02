@@ -81,3 +81,20 @@ export default function Component() {
 ```
 npm i swiper
 ```
+
+### 2. 사용할 파일에 import
+```
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation, Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+SwiperCore.use([Navigation, Pagination]);
+```
+
+### 3. 기본 형태 붙여넣기
+
+```
+```
+
