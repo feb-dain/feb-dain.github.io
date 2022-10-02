@@ -178,10 +178,3 @@ function App(){
 <br>
 <br>
 
-➕
-<a href="https://velog.io/@sohee-k/React-TypeScript-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-Swiper-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0image-slider-library">
-Velog</a><br>
-화살표 커스텀 할 때 위 블로그를 참고했고, 개발자 도구로 Element를 확인해가면서 원하는 디자인으로 만들었다.
-스와이퍼 라이브러리를 이용하면 화살표 커스텀은 그리 어렵지 않다.
-<br>
-<br>
