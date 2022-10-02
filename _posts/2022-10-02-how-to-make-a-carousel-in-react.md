@@ -176,12 +176,13 @@ Velog</a>
 스와이퍼 라이브러리를 이용하면 화살표 커스텀은 그리 어렵지 않다.
 
 ➕
-스와이퍼 오류났을 때 참고한 블로그<br>
 
 [Module not found: Can't resolve 'swiper/react'](https://stackoverflow.com/questions/69202975/module-not-found-cant-resolve-swiper-react)
 
 [[Solved] Module not found: Can't resolve 'swiper/css'](https://namespaceit.com/blog/module-not-found-cant-resolve-swipercss)
 
+
+스와이퍼 오류났을 때 참고함
 <br>
 <br>
 
