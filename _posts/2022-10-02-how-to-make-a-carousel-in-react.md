@@ -30,3 +30,39 @@ import "slick-carousel/slick/slick-theme.css";
 ```
 
 ### 3. 기본 형태 붙여넣기
+
+```
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+export default function Component() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
+    
+    return (
+      <div>
+        <h2>Title</h2>
+        <Slider {...settings}>
+          <div>
+            슬라이더1
+          </div>
+          <div>
+            슬라이더2
+          </div>
+          <div>
+            슬라이더3
+          </div>
+          <div>
+            슬라이더4
+          </div>
+        </Slider>
+      </div>
+    );
+  }
+```
