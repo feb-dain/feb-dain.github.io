@@ -108,7 +108,7 @@ function App(){
   
   return (
         <Swiper
-              ...settings
+              {...settings}
               breakpoints={{
                   375: {
                       spaceBetween: 8,
