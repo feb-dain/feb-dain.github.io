@@ -83,7 +83,6 @@ export default function Component() {
 
 ```
 npm i swiper
-
 ```
 
 ### 2. 사용할 파일에 import
