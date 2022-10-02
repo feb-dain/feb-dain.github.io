@@ -8,9 +8,9 @@ tags: React
 여러 라이브러리 중에 나는 Slick과 Swiper를 사용했다. 개인적으로 Slick 보다 Swiper가 훨씬 더 사용하기 편했다. 
 
 
-## Slick 사용법
+### Slick 사용법
 
-### 1. 터미널에 slick 설치 
+#### 1. 터미널에 slick 설치 
 
 ```
 npm i react-slick slick-carousel
@@ -26,7 +26,7 @@ npm i react-slick slick-carousel
 
 
 
-### 2. 사용할 파일에 import
+#### 2. 사용할 파일에 import
 
 ```
 import Slider from "react-slick";
@@ -34,7 +34,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 ```
 
-### 3. 기본 형태 붙여넣기
+#### 3. 기본 형태 붙여넣기
 
 ```
 import Slider from "react-slick";
@@ -78,15 +78,15 @@ export default function Component() {
 <br>
 <br>
 
-## Swiper 사용법
+### Swiper 사용법
 
-### 1. 터미널에 swiper 설치
+#### 1. 터미널에 swiper 설치
 
 ```
 npm i swiper
 ```
 
-### 2. 사용할 파일에 import
+#### 2. 사용할 파일에 import
 
 ```
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -98,7 +98,7 @@ import "swiper/css/pagination";
 SwiperCore.use([Navigation, Pagination]);
 ```
 
-### 3. 기본 형태 붙여넣기
+#### 3. 기본 형태 붙여넣기
 
 ```
 function App(){
@@ -142,7 +142,7 @@ Swiper를 이용해 편하게 슬라이더를 만들었다. 영화 앱을 만들
 <br>
 
 
-## Swiper 화살표 커스텀하기
+### Swiper 화살표 커스텀하기
 
 ```
 function App(){
