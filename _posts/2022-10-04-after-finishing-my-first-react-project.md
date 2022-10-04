@@ -28,6 +28,7 @@ tags: Lookback
 
 🧐 <span style="background:#e7f3f8;"> 기여도 100% 작업? </span>
 <br>
+
 <a href="https://nomadcoders.co/react-for-beginners/lobby">노마드 코더 강의</a>를 들으면서
 
 1. async, await과 함께 fetch를 사용해 API를 호출했고,
