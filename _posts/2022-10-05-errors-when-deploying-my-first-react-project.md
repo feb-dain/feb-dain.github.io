@@ -69,7 +69,7 @@ import 'swiper/swiper.min.css';
 git config --gloabal user.name 바꿀-이름
 ```
 
-#### 2. gh-pages 설치
+#### 2. gh-pages (재)설치
 
 ```
 npm i gh-pages
