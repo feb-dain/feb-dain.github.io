@@ -75,7 +75,7 @@ git config --gloabal user.name 바꿀-이름
 npm i gh-pages
 ```
 
-#### 3. remote 연동 url 변경(git remote -v 하면 확인 가능)
+#### 3. remote 연동 url 변경 (git remote -v 하면 기존의 url 확인 가능)
 
 ```
 git remote set-url origin https://github.com/github-user-name/repository-name/
