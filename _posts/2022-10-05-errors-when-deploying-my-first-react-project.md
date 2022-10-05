@@ -52,13 +52,13 @@ build 파일을 만들어서 깃허브 리포지토리에 붙여 넣는 방식�
 import 'swiper/swiper.min.css';
 ```
 
-<br>
 참고<br>
 
 [Module not found: Can't resolve 'swiper/react'](https://stackoverflow.com/questions/69202975/module-not-found-cant-resolve-swiper-react)
 
 [[Solved] Module not found: Can't resolve 'swiper/css'](https://namespaceit.com/blog/module-not-found-cant-resolve-swipercss)
 
+<br>
 둘 다 하고 기존 CSS 파일 코드를 지우니 해결 😅휴... 해결한 방법으로 블로그 글도 수정했다. 👉 <a href="https://feb-dain.github.io/how-to-make-a-carousel-in-react/">(링크)</a><br>
 이제 로컬 페이지에서는 잘 보이게 되었다. 하지만...! 깃허브 배포를 하면 역시나 까만 화면만 보였다. 이를 해결하기 위해 아래와 같은 시도를 했다.<br>
 
