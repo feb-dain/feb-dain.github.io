@@ -23,7 +23,7 @@ npm i react-slick slick-carousel
 
 ### 2. 사용할 파일에 import
 
-```
+```jsx
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -31,7 +31,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 ### 3. 기본 형태 붙여넣기
 
-```
+```jsx
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -88,7 +88,7 @@ npm i swiper@6.8.4
 ```
 
 ### 2. 사용할 파일에 import
-```
+```jsx
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper";
 
@@ -99,7 +99,7 @@ SwiperCore.use([Navigation]);
 
 ### 3. 기본 형태 붙여넣기
 
-```
+```jsx
 function App(){
   const settings = {
         slidesOffsetBefore: 0,
@@ -133,7 +133,7 @@ function App(){
 
 ### Swiper 화살표 커스텀하기
 
-```
+```jsx
 function App(){
     const prevRef = useRef(null);
     const nextRef = useRef(null);
