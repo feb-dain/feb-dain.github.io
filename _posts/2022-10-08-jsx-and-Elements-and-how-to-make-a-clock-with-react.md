@@ -81,7 +81,6 @@ export default Clock;
 
 <br>
 자바스크립트에서는 항상 getHours나 getMinutes 등을 사용했는데, 리액트로 시계를 만들면서
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString">toLocaleTimeString()</a>이
-있다는 걸 처음 알았다😂 지금이라도 알게 되어 다행이다.<br>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString">toLocaleTimeString()</a>을 처음 알았다😂 지금이라도 알게 되어 다행이다.<br>
 
 <br>
