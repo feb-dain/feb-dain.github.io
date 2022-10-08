@@ -203,8 +203,12 @@ div {
 ```
 ```html
 <header>Header</header>
-<main><div>Main<div></main>
-<aside><div>Aside<div></aside>
+<main>
+	<div>Main<div>
+</main>
+<aside>
+	<div>Aside<div>
+</aside>
 <footer>Footer</footer>
 ```
 
