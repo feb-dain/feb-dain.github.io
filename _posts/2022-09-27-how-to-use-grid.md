@@ -20,7 +20,7 @@ tags: CSS
 
 ![image](https://user-images.githubusercontent.com/108778921/192751891-7ecc619b-95cd-4039-990b-cc070bcb0239.png)
 
-```
+```css
 .container {
 	display: grid;     /* 부모에 그리드 선언 */
 	grid-template-columns: repeat(5, 1fr);    /* 1:1:1:1:1의 비율 */
@@ -32,7 +32,7 @@ tags: CSS
 
 ### 만약 그리드 박스 안 콘텐츠의 길이가 다양하다면?
 grid-auto-... 사용!
-```
+```css
 .container {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
@@ -41,7 +41,7 @@ grid-auto-... 사용!
 }
 ```
 
-```
+```css
 .container {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
@@ -60,7 +60,7 @@ grid-auto-... 사용!
 
 박스를 어디서부터 어디까지 차지하게 할 지 정할 수 있다.
 
-```
+```css
 .item2 {
 	grid-column-start: 2;
 	grid-colunm-end: 4;
@@ -68,7 +68,7 @@ grid-auto-... 사용!
 	grid-row-end: 3;
 }
 ```
-```
+```css
 grid-column: 2/4;
 /* (= grid-column: 2 / span 2;) cell 2개를 차지해줘 */
 grid-column: 2/-1; /* 끝까지 */
@@ -83,7 +83,7 @@ grid-row: 1/3;
   	object-fit: cover;    /* 사진을 박스 안에 어떻게 들고올 것인지 결정 */
 }
 ```
-```
+```css
 .container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -113,7 +113,7 @@ grid-row: 1/3;
 
 ![image](https://user-images.githubusercontent.com/108778921/192558383-c4386468-7988-490e-a2fa-d85294c3372b.png)
 
-```
+```css
 body {
 	width: 100vw;
 	height: 100vh;
@@ -161,7 +161,7 @@ With 드림코딩<br>
 바로 될 줄 알았는데 텍스트는 전혀 미동도 하지 않았다. 어떻게 하면 수직 가운데 정렬을 할 수 있을까, 구글링을 하던 중 `inline-block 박스`를 만들고
 그 박스에다가 `vertical-align: middle;`을 적용하면 된다는 정보를 발견했다. 
 
-```
+```css
 body {
 	width:100vw;
 	height: 100vh;
