@@ -33,7 +33,7 @@ Elements are the smallest building blocks of React apps.<br>
 Let’s say there is a < div > somewhere in your HTML file:<br>
 HTML 파일 어딘가에 < div > 가 있다고 했을 때, <br>
 
-```
+```JSX
 <div id="root"></div>
 ```
   
