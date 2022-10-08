@@ -163,7 +163,7 @@ With 드림코딩<br>
 
 ```css
 body {
-	width:100vw;
+	width: 100vw;
 	height: 100vh;
 	margin: 0;
 	display: grid;
@@ -200,7 +200,8 @@ div {
         height: 100%;
 	vertical-align: middle; 
 }
-
+```
+```html
 <header>Header</header>
 <main><div>Main<div></main>
 <aside><div>Aside<div></aside>
