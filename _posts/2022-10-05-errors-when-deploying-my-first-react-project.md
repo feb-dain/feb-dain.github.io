@@ -45,7 +45,7 @@ build 파일을 만들어서 깃허브 리포지토리에 붙여 넣는 방식�
 
 1. 다운그레이드 (낮은 버전 설치) `npm i swiper@6.8.4`
 2. CSS 파일 변경
-```
+```jsx
 // import "swiper/css"; 
 // import "swiper/css/navigation";
 👇
@@ -89,7 +89,7 @@ git remote set-url origin https://github.com/github-user-name/repository-name/
 
 #### 5. 라우터에 basename 추가 (path에도 하면 안 먹힘)
 
-```
+```jsx
 <BrowserRouter basename={process.env.PUBLIC_URL} id="root">
     <Routes>
         <Route path="/" element={<Home />} />
@@ -107,7 +107,7 @@ git remote set-url origin https://github.com/github-user-name/repository-name/
 겨우겨우 배포 성공했으나… 또!! 문제 발생. public > img 폴더에 있는 이미지가 안 뜬다…😢 이것도 역시나 경로의 문제일 거라 확신했다.
 '라우터에 url 추가한 것처럼 이미지 파일 앞에도 추가해볼까?'라는 생각이 들어 시도해 봤는데 오류 해결 성공!  
 
-```
+```jsx
 <img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="로고"></img>
 ```
 
