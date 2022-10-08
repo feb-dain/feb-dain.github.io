@@ -54,6 +54,7 @@ React elements are immutable. Once you create an element, you can’t change its
 강의를 듣고 추가적으로 공식 문서를 찾아본 다음, 리액트로 시계를 만드는 연습을 했다.
 
 ```jsx
+
 import { useEffect, useState } from "react";
 
 function Clock() {
@@ -75,6 +76,7 @@ function Clock() {
 }
 
 export default Clock;
+
 ```
 
 <br>
