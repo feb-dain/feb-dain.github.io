@@ -76,7 +76,7 @@ grid-row: 1/3;
 ```
 
 좀 더 수월하게 하려면 **grid-template-areas**를 사용하면 된다. 
-```
+```css
 .image {
 	width: 100%;    /* 부모가 기준 */
 	height: 100%;
