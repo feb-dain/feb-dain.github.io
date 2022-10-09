@@ -59,7 +59,6 @@ tags: Git
   7) 본문은 영문 기준 72자마다 줄 바꾸기<br>
   8) 본문은 어떻게보다 무엇을, 왜에 맞춰 작성하기<br>
 
-<br>
 
 **타입**<br>
 feat : 새로운 기능 추가<br>
@@ -76,7 +75,16 @@ remove : 파일을 삭제하는 작업만 수행한 경우<br>
 !BREAKING CHANGE : 커다란 API 변경의 경우<br>
 !HOTFIX : 급하게 치명적인 버그를 고쳐야 하는 경우<br>
 
--<a href="https://cocoon1787.tistory.com/708">출처</a>
+-<a href="https://cocoon1787.tistory.com/708">출처</a><br>
+
+
+**추가**<br>
+1. 동명사보다 명사 사용
+2. 꼭 필요하지 않으면 관사는 사용하지 않는다.
+3. 부정문 Don't 사용
+4. 오타 수정은 Fix typo
+
+-<a href="https://blog.ull.im/engineering/2019/03/10/logs-on-git.html">출처</a>
 
 <br>
 <br>
