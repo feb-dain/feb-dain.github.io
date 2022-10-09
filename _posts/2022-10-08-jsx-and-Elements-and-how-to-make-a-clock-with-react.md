@@ -38,7 +38,7 @@ HTML 파일 어딘가에 < div > 가 있다고 했을 때, <br>
 ```
   
 We call this a "root" DOM node because everything inside it will be managed by React DOM.<br>
-이걸 "루트" 돔 노드라고 부른다. 왜냐하면 이 안에 있는 모든 것들이 리액트 돔에 의해 관리될 것이기 때문이다.<br>
+리액트 돔이 이 안에 있는 모든 것들을 관리하기 때문에 이걸 "루트" 돔 노드라고 부른다.<br>
 <br>
 To render a React element, first pass the DOM element to ReactDOM.createRoot(), then pass the React element to root.render():<br>
 리액트 엘리먼트를 렌더링하기 위해서는 우선 DOM 엘리먼트를 ReactDOM.createRoot()에 전달한 다음, 리액트 엘리먼트를 root.render()에 전달해야 한다.  
