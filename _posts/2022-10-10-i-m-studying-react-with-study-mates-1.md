@@ -1,7 +1,7 @@
 ---
 title: "리액트 스터디 1주 차 공부 완료"
 layout: post
-tags: Lookback
+tags: Study-Group
 ---
 
 인프런에서 '처음 만난 리액트' 강의 섹션 1부터 섹션 9까지 듣고 모든 실습을 끝내는 것이 리액트 스터디 1주 차 분량이었다.
