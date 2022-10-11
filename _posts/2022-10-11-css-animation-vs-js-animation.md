@@ -60,7 +60,7 @@ JS : `setInterval()`&nbsp;  `requestAnimationFrame()` 
 CPU에 비해 연산 장치(ALU)의 구조가 단순, 작은 제어/캐시 영역을 가짐<br><br>
 vs CPU란?<br>
 <u>Core Processing Unit(중앙 처리 장치)</u><br>
-: 컴퓨터에서 사람의 뇌처럼 데이터 연산, 주변 장치 제어, 명령을 내리는 장치<br>
+컴퓨터에서 사람의 뇌처럼 데이터 연산, 주변 장치 제어, 명령을 내리는 장치<br>
 산술논리 장치 + 제어 장치 + 레지스터 세트 + CPU 내부 버스 등으로 구성<br>
 5단계 작업 반복 : 1) 명령어 인출 2) 명령어 해독 3) 데이터 인출 4) 데이터 처리 5) 데이터 저장<br>
 Instruction fetch → Instruction decode → Data fetch → Data process → Data store<br>
