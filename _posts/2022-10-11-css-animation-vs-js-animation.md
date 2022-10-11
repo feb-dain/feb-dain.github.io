@@ -55,7 +55,7 @@ JS : `setInterval()`&nbsp;  `requestAnimationFrame()` 
 
 
 >💡 *GPU란?<br>
-<u>Graphic Processing Unit</u>(그래픽 처리 장치)<br>
+<u>Graphic Processing Unit(그래픽 처리 장치)</u><br>
 특정 단순 계산을 빠르게 함<br>
 CPU에 비해 연산 장치(ALU)의 구조가 단순, 작은 제어/캐시 영역을 가짐<br><br>
 vs CPU란?<br>
