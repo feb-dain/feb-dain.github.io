@@ -87,6 +87,13 @@ git remote set-url origin https://github.com/github-user-name/repository-name/
 "homepage": "https://github-user-name.github.io/repository-name/"
 ```
 
++package.json 파일 "scripts" 안에 아래 코드 2줄 없으면 추가
+```
+"deploy" : "gh-pages -d build",
+"predeploy" : "npm run build"
+```
+
+
 #### 5. 라우터에 basename 추가 (path에도 하면 안 먹힘)
 
 ```jsx
