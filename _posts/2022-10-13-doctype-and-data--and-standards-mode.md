@@ -42,6 +42,7 @@ HTML 문서가 DOCTYPE을 선언 → 주어진 DOCTYPE에 맞게 표준 모드�
 **장점**<br>
 스크립트를 핸들링하기 위해서 의미 없는 클래스나 ID 사용을 하지 않아도 되고 
 클래스가 이미 멀티클래스로 많이 사용된 경우, data 속성을 준 요소별로도 스타일 요소를 적용할 수 있다.
+data- 속성은 HTML 태그 내에서 별다른 역할을 하지 않는 단순한 데이터이기 때문에 화면의 레이아웃에도 전혀 영향을 주지 않는다.
 
 -<a href="https://github.com/baeharam/Must-Know-About-
     Frontend#%EC%B7%A8%EC%A4%80%EC%83%9D%EC%9D%B4-%EB%B0%98%EB%93%9C%EC%8B%9C-
