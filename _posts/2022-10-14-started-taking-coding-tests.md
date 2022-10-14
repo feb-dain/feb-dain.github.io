@@ -26,7 +26,7 @@ tags: Coding-Test
 
 ```jsx
 function solution(angle){
-  const answer = [0, 90, 91, 180].filter(x => angle >=x).length
+  const answer = [ 0, 90, 91, 180 ].filter(x => angle >=x).length;
   return answer;
 }
 ```
