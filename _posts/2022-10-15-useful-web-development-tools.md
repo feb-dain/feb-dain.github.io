@@ -10,7 +10,7 @@ tags: Front-End
 
   — 홈페이지에 사용된 컬러, 폰트 등 간편하게 확인 가능
 
-  — Css 그림자나 폰트, 플렉스, 그리드 미리 적용해보기 가능
+  — CSS 그림자나 폰트, 플렉스, 그리드 미리 적용해보기 가능
 
   — Unused declarations 이용해서 css 정리하기 유용
 
@@ -42,3 +42,6 @@ tags: Front-End
 
 ## Flex / Grid (editor)
 display : flex/grid 옆 작은 아이콘 클릭
+
+
+-출처 <a href="https://youtu.be/q_rBbcTiSC4">드림코딩</a>
