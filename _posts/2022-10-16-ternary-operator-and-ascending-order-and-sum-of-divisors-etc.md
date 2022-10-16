@@ -86,7 +86,7 @@ function solution(num_list) {
 ex) 12의 약수는 1, 2, 3, 4, 6, 12입니다. 이를 모두 더하면 28입니다.
 
 ```jsx
-function solution(num) {
+function solution(n) {
     return [...Array(n+1).keys()].reduce((x,y) => x+(!(n%y) && y));
 }
 ```
