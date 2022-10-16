@@ -1,7 +1,7 @@
 ---
 title: "시맨틱 마크업이란?"
 layout: post
-tags: Front-end
+tags: Front-End
 ---
 
 '시맨틱 태그'는 의미가 있는 태그로, 보는 사람이 태그의 이름만 보고도 어떤 태그인지 알 수 있게 한다.
