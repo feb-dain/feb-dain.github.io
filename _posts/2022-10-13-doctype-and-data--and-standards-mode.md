@@ -1,7 +1,7 @@
 ---
 title: "DOCTYPE, data- 속성, 표준모드와 호환모드"
 layout: post
-tags: Front-end
+tags: Front-End 
 ---
 
 ### Doctype이란?
