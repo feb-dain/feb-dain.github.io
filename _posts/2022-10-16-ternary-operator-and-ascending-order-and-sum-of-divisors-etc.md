@@ -42,7 +42,7 @@ function solution(n) {
     return answer;
 }
 ```
-배열을 만들고 필터로 짝수를 제외시켜줬다.
+배열을 만들고 filter로 짝수를 제외시켜줬다.
 
 <br>
 
@@ -86,7 +86,9 @@ function solution(num_list) {
 ex) 12의 약수는 1, 2, 3, 4, 6, 12입니다. 이를 모두 더하면 28입니다.
 
 ```jsx
-[...Array(n+1).keys()].reduce((x,y) => x+(!(n%y) && y));
+function solution(num) {
+    return [...Array(n+1).keys()].reduce((x,y) => x+(!(n%y) && y));
+}
 ```
 >설명<br>
 >!(n % a) this returns true only for the elements that have a 0 as modular value.<br><br>
