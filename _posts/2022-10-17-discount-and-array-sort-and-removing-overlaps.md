@@ -44,7 +44,7 @@ function solution(price) {
 - <a href="https://stackoverflow.com/questions/183201/should-a-developer-aim-for-readability-or-performance-first">
   stackoverflow
   </a><br>
-다양한 글을 읽어봤지만 가장 중요한 것은 정확성이라고 했다. (Correctness is the most important)
+여러 글을 읽어봤지만 가장 중요한 것은 정확성이라고 했다. (Correctness is the most important)
 가독성이 좋으면 최적화하기 더 쉽고, 대부분의 경우 가독성을 위해 속도나 퍼포먼스를 포기하지 않아도 된다고 했다.
 따라서 내 생각엔 성능/속도 면에서 그리 차이 나지 않는다면, 퍼포먼스나 속도가 중요하지 않다면 `가독성`이 우선인 게 맞는 것 같다.
 
