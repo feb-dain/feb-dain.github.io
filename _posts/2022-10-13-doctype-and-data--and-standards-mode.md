@@ -47,8 +47,8 @@ data- 속성은 HTML 태그 내에서 별다른 역할을 하지 않는 단순�
 -<a href="https://github.com/baeharam/Must-Know-About-
     Frontend#%EC%B7%A8%EC%A4%80%EC%83%9D%EC%9D%B4-%EB%B0%98%EB%93%9C%EC%8B%9C-
     %EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%A7%80%EC%8B%9D%EB%93%A4">
-    참고1 
+    출처1 
   </a>,
-  <a href="https://whales.tistory.com/3#:~:text=data%20%EC%86%8D%EC%84%B1%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4,%EB%A5%BC%20%EC%A0%81%EC%9A%A9%ED%95%A0%20%EC%88%98%20%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4.">참고2</a>
+  <a href="https://whales.tistory.com/3#:~:text=data%20%EC%86%8D%EC%84%B1%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4,%EB%A5%BC%20%EC%A0%81%EC%9A%A9%ED%95%A0%20%EC%88%98%20%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4.">출처2</a>
 <br>
 <br>
