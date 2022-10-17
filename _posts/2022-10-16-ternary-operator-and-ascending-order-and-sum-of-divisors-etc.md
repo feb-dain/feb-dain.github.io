@@ -89,7 +89,7 @@ function solution(n) {
     return [...Array(n+1).keys()].reduce((x,y) => x+(!(n%y) && y));
 }
 ```
->설명<br>
+>stackoverflow 설명 (여기서 a는 위 코드 y와 같다)<br>
 >!(n % a) this returns true only for the elements that have a 0 as modular value.<br><br>
 (!(n % a) && a) is a js 'trick'.<br>
 The case is that boolean expressions in javascript don't return true or false.
