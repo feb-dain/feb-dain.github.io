@@ -23,7 +23,7 @@ function solution(dot) {
 
 
 나는 삼항 연산자와 and 연산자를 사용했는데,
-다른 사람의 코드를 보니 and 연산자를 사용하지 않은 것도 있었다.
+and 연산자를 사용하지 않고 코드를 작성하신 분도 있었다.
 
 ```jsx
 function solution(dot) {
