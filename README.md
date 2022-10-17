@@ -12,7 +12,6 @@ title: "About"
   <img alt="react" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
   <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
   <img alt="css3" src="https://img.shields.io/badge/-CSS3-41BF47?style=flat-square&logo=css3&logoColor=white" />
-  <img alt="Scss" src="https://img.shields.io/badge/-SCSS-CC6699?style=flat-square&logo=sass&logoColor=white" />
   <img alt="javascript" src="https://img.shields.io/badge/-JavaScript-0093D5?style=flat-square&logo=javascript&logoColor=white" />
   <img alt="jquery" src="https://img.shields.io/badge/-JQuery-0769AD?style=flat-square&logo=jquery&logoColor=white" />
   <br>
