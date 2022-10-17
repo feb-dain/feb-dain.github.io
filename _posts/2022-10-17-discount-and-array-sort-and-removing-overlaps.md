@@ -37,7 +37,7 @@ function solution(price) {
 - <a href="https://hackernoon.com/few-simple-rules-for-good-coding-my-15-years-experience-96cb29d4acd9">
   https://hackernoon.com/few-simple-rules-for-good-coding-my-15-years-experience-96cb29d4acd9
   </a>
-위 글에서는 최적화된 코드보다 가독성이 좋은 코드를 우선시했다. 
+<br>위 글에서는 최적화된 코드보다 가독성이 좋은 코드를 우선시했다. 
 - <a href="https://betterprogramming.pub/code-readability-vs-performance-25a9ca970aca">
   https://betterprogramming.pub/code-readability-vs-performance-25a9ca970aca
   </a>
