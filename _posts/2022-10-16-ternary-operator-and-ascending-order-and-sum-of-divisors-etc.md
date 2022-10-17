@@ -59,8 +59,7 @@ function solution(n) {
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from">
   Array.from
 </a>
-을 사용하여 문자열로 변환 후, 붙어있는 문자열을 하나씩 자르고,
-Number로 다시 숫자로 만든 다음, reduce로 배열의 합을 구해줬다.
+을 사용하여 (String)문자열로 변환 후, 붙어있는 문자열을 하나씩 자르고, (Number)다시 숫자로 만든 다음, reduce로 배열의 합을 구해줬다.
 <br>
 <br>
 
