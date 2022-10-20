@@ -62,8 +62,9 @@ function average(array){
   return array.reduce((a, b) => a + b) / array.length;
 }
 ```
-이렇게 더 간결하게 코드를 작성할 수 있다. 그리고 초깃값이 0이면 생략해도 괜찮은 것 같다.
-또 `for ... of`문 보다 reduce로 배열의 합을 구하는 게 (코드 속도가) 더 빠르다!
+이렇게 더 간결하게 코드를 작성할 수 있다. 
+위의 코드에서는 reduce 초깃값을 생략해도 괜찮아서 생략해주었다.
+그리고 `for ... of`문 보다 reduce로 배열의 합을 구하는 게 (코드 실행 속도가) 더 빠르다!
 
 <br>
 
