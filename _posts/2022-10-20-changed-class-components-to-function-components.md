@@ -5,7 +5,7 @@ tags: Study-Group
 ---
 
 <a href="https://feb-dain.github.io/i-m-studying-react-with-study-mates-1/">리액트 스터디 1주 차 공부 완료</a>에서
-말한대로 <span style="color:gray"> ― "Class형 컴포넌트를 유지 보수 해야할 일이 생길 수도 있으니 Class형 컴포넌트를 함수형 컴포넌트로 바꾸는 것도 공부하면 좋을 것 같다." ― </span>
+말한대로 <span style="color:gray"> ― "Class형 컴포넌트를 보수해야할 일이 생길 수도 있으니 Class형 컴포넌트를 함수형 컴포넌트로 바꾸는 것도 공부하면 좋을 것 같다." ― </span>
 클래스 컴포넌트를 함수형 컴포넌트로 바꾸는 연습을 했다. 
 
 
