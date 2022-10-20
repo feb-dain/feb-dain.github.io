@@ -137,7 +137,7 @@ const Notification = () => {
     if(notifications.length < txt.length){
         timer = setInterval(() => {
             setNotification([...notifications, txt[index]])
-        }, 1000);
+        }, 2000);
     } 
     return () => clearInterval(timer);
 
