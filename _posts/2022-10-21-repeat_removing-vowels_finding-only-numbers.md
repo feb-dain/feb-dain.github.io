@@ -66,7 +66,7 @@ function solution(my_string) {
     return my_string.split("").filter(Number).map(x=>Number(x)).reduce((a,b) => a+b);
 }
 ```
-나는 문자열을 하나씩 잘라낸 배열로 만들고 filter로 숫자만 거른 후,<br>
+나는 split으로 문자열을 하나씩 잘라내 배열로 만들고 filter로 숫자만 거른 후,<br>
 ( 이때 [ "a","A","b","1","B","2","c","C","3","4","o","O","p" ] → [ "1","2","3","4" ] 이런 식으로 걸러진다. )<br>
 map으로 문자열을 숫자열로 바꾸고 reduce로 숫자의 합을 구해주었다.
 
