@@ -18,7 +18,7 @@ function solution(my_string, n) {
 
 
 repeat을 빨리 못 떠올려서 오래 걸렸던 문제...😂 
-split으로 문자열을 하나씩 나눈 배열로 만들어주고, 문자 하나하나를 n 만큼 반복해 준 뒤, join으로 합쳐주었다.
+split으로 문자열을 하나씩 자르고 문자 하나하나를 n 만큼 반복해 준 뒤, join으로 합쳐주었다.
 
 ```jsx
 function solution(my_string, n) {
