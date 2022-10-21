@@ -51,7 +51,7 @@ function solution(my_string) {
 ```
 위의 코드는 Array.from을 사용했고, 아래의 코드는 split을 사용했다.
 
-includes는 괄호 안에 있는 문자가 포함되어 있을 경우 true를, 아니면 false를 반환한다.
+includes는 괄호 안에 있는 문자가 포함되어 있을 경우 true를, 포함되어 있지 않을 경우 false를 반환한다.
 true, false로만 값을 반환해서 이걸 사용할 생각은 못 했었는데, filter가 true인 값만 반환하는 것을 이용하다니 정말 신기했다.
 >추가 설명 : string에 a, i, e, o, u가 포함되어 있으면 true를 반환한다. 하지만 "!(느낌표)"를 이용하여 true의 반대인 false를 반환하게 만든다.
 따라서 string에 a, i, e, o, u가 있는 경우, filter에 false가 반환되므로 a, i, e, o, u는 필터에 가로막혀 나올 수 없게 된다.
