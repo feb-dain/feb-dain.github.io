@@ -63,12 +63,21 @@ indexOf는 배열에 찾는 값이 없을 경우 -1를 반환하고 찾는 값�
 아래와 같이 코드를 작성한 사람도 있었다!
 ```jsx
 function solution(num, k) {
-    return num.toString().split("").map((el) => Number(el)).indexOf(k) + 1 || -1
+    return num.toString().split("").map((el) => Number(el)).indexOf(k) + 1 || -1;
 }
 ```
 위 코드는 자바스크립트에서 0이 false라는 사실과 or 연산자(||)를 이용했다.
-indexOf으로 인덱스값 구한 후, 1을 더해 숫자가 있는 자리 수를 구했고,
-만약 배열에 찾는 값이 없을 경우, -1을 반환하므로 0, 즉 false가 되면 -1를 반환하게 했다.
+indexOf으로 인덱스 값을 구한 후, 인덱스 값에 1을 더함으로써
+숫자가 있는 자리 수를 구하고 만약 배열에 찾는 값이 없을 경우 -1를 반환하게 했다. 👏
+(indexOf는 -1을 반환하므로 1을 더하면 0, 즉 false가 된다. false가 되면 or 연산자 뒤의 값이 반환된다.)
+
+위 코드를 참고해 내 코드를 바꿔주었다.
+```jsx
+function solution(num, k) {
+    return String(num).split("").indexOf(String(k)) + 1 || -1;
+}
+```
+아주 간결한 코드가 완성되었다. 😊
 
 <br>
 
