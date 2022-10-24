@@ -34,7 +34,7 @@ function solution(my_string) {;
 function solution(s){
     let string = Array.from(s.toLowerCase());
     let p = string.filter(x=> x==="p");
-    let y = string.filter(x => x==="y");
+    let y = string.filter(x=> x==="y");
     return p.length === y.length;
 }
 ```
