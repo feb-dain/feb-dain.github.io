@@ -12,7 +12,7 @@ function solution(my_string) {;
     return my_string.match(/\d/g).map(n=>Number(n)).sort((a,b)=>a-b);
 }
 ```
-나는 match를 이용해 숫자만 골라낸 다음, 문자형이 아닌 숫자형으로 바꾸고 sort로 오름차순 정렬을 해주었다.
+나는 match를 이용해 숫자만 골라낸 다음, Number로 문자형을 숫자형으로 바꾸고 sort로 오름차순 정렬을 해주었다.
 
 
 
@@ -40,7 +40,7 @@ function solution(s){
 ```
 더 깔끔하게 코드를 작성하기 위해 노력했지만, 도저히 모르겠어서 위와 같이 코드를 작성했다.
 
-문제를 풀고 난 뒤에는 다른 사람의 코드를 볼 수 있었는데, 아래와 같이 split을 이용한 사람도 있었다.
+문제를 풀고 난 뒤에는 다른 사람의 코드를 볼 수 있는데, 아래와 같이 split을 이용한 사람도 있었다.
 왜 생각을 못 했을까!😂 역시 망각의 동물... 잊지 않을 때까지 반복하는 수밖에 없는 거 같다.  
 ```jsx
 function numPY(s){
@@ -67,7 +67,7 @@ function solution(n) {;
 문자열 my_string과 정수 num1, num2가 매개변수로 주어질 때, my_string에서 인덱스 num1과 인덱스 num2에 해당하는 문자를 바꾼 문자열을 return 하도록 solution 함수를 완성해보세요.
 
 
-아래와 같이 구조분해할당(Destructuring assignment, 배열이나 객체의 속성을 해체하여 그 값을 개별 변수에 담을 수 있게 하는 자바스크립트 표현식)을 이용했다.
+아래와 같이 **구조분해할당**(Destructuring assignment, 배열이나 객체의 속성을 해체하여 그 값을 개별 변수에 담을 수 있게 하는 자바스크립트 표현식)을 이용했다.
 - <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">한국어 MDN</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">영어 MDN</a>
 ```jsx
@@ -92,7 +92,7 @@ function solution(rsp) {
 ```
 나는 Array.from과 map, 삼항 연산자를 이용해 풀었는데,<br> 
 아래와 같이 구조분해할당으로 푼 사람도 있었다.
-조건이 늘어나도 간단한 수정으로 응용할 수 있는 코드라 좋은 것 같다!
+조건이 늘어나도 간단하게 arr에 추가만 하면 되는 코드라 좋은 것 같다!
 ```jsx
 function solution(rsp) {
     let arr = {
