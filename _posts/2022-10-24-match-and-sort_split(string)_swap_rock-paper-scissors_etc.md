@@ -1,5 +1,5 @@
 ---
-title: "숫자 배열 정렬, 특정 문자의 개수, 문자 교체(swap), 가위바위보"
+title: "숫자 배열 정렬, 특정 문자의 개수, 문자 교체(swap), 가위바위보 등"
 layout: post
 tags: Coding-Test
 ---
