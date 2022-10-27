@@ -44,5 +44,7 @@ function solution(n) {
 Math.sqrt을 이용해 제곱수를 판별하고(<a href="https://feb-dain.github.io/max-number_median_square-numbers-and-reordering-string/">제곱수 판별에 대한 설명</a>) 
 n이 제곱수일 경우, n의 제곱근에 1을 더해 거듭제곱( ** )을 해주었다. 만약 n이 제곱수가 아닐 경우, -1을 반환했다.
 
+
+출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
 <br>
 <br>
