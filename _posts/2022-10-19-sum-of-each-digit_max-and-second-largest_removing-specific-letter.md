@@ -75,3 +75,7 @@ function solution(my_string, letter) {
 ```
 그런데 그냥 letter을 잘라 합칠 수도 있었다니! 😂 정말 효율적이다.
 
+
+출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+<br>
+<br>
