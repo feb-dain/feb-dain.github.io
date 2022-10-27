@@ -125,6 +125,9 @@ includes를 이용해 같은 원소가 있는지 확인하고(같은 원소가 �
 
 set을 이용하기 전, filter를 사용할 생각은 했지만 includes를 사용할 생각까진 못했었는데!
 오늘도 코딩 테스트를 하면서 많이 배웠다. 😊
+
+
+출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
 <br>
 <br>
 
