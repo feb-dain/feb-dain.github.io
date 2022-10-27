@@ -94,5 +94,7 @@ function solution(my_string) {
 `...(dots)`와 `set`을 이용해 푼 사람도 있었다. 코드 속도는 위의 코드가 더 빠른데 아래의 코드가 간결하니까 더 좋은 코드인 걸까? 
 '좋은 코드란 무엇인가'에 대한 궁금증이 계속 생긴다. 아무래도 클린 코딩에 관한 책이나 글을 많이 읽어야 할 것 같다! 🤓
 
+
+출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
 <br>
 <br>
