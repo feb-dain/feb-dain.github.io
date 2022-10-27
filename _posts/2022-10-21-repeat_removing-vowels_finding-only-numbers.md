@@ -126,5 +126,7 @@ function solution(my_string) {
 
 정규 표현식 ^^... 신세계다. 잘 사용하면 정말 편할 듯하다.
 
+
+출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
 <br>
 <br>
