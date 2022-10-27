@@ -156,5 +156,7 @@ function solution(order) {
 ```
 order를 문자형으로 바꾸고 3, 6, 9에 해당되는 값을 찾아 배열을 만든 뒤, 그 배열의 길이를 구한 코드이다. 
 
+
+출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
 <br>
 <br>
