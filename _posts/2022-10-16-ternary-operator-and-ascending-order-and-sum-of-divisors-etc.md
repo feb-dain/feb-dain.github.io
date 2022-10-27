@@ -135,5 +135,6 @@ function solution(my_string) {
 ```
 코드의 길이는 더 짧지만 시간이 더 오래 걸렸다.
 
+출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
 <br>
 <br>
