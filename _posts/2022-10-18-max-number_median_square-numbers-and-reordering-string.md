@@ -81,5 +81,7 @@ function solution(my_string) {
 ```
 문자열 정렬하기 (1)에서는 위의 코드처럼 split을 이용했는데 다시 할 땐 깜빡했다. 😂 문자열 정렬할 때는 `split → sort → join` 이 순서를 기억하자!
 
+
+출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
 <br>
 <br>
