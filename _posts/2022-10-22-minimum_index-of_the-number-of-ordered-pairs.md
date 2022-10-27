@@ -125,5 +125,6 @@ function solution(n) {
 따라서 `n%i`가 0일 때마다(1부터 n까지의 수 중에 n의 약수가 나올 때마다) `answer`에 계속 1이 더해진다.
 그러면 `answer`은 곧 순서쌍의 개수가 된다.
 
+출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
 <br>
 <br>
