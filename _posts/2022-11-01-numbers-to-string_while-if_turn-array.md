@@ -94,13 +94,25 @@ function solution(numbers, direction) {
 }
 ```
 
-`unshift` <br>
-`pop` <br>
-`push` <br>
-`shift` <br>
-위 메서드를 사용했다. 최대한 간결하게 코드를 작성했다고 생각했는데 아니었다.
+`unshift()` : 배열 맨 처음에 ()를 넣는다.
+```jsx
+ex) [ 1, 2, 3 ].unshift(0) → [ 0, 1, 2, 3 ]
+```
+`pop()` : 배열의 마지막 요소를 제거한다.
+```jsx
+ex) [ 1, 2, 3 ].pop() → [ 1, 2 ]
+```
+`push()` : 배열 맨 뒤에 ()를 넣는다.
+```jsx
+ex) [ 1, 2, 3 ].push(4) → [ 1, 2, 3, 4 ]
+```
+`shift()` : 배열의 첫 번째 요소를 제거한다.
+```jsx
+ex) [ 1, 2, 3 ].shift() → [ 2, 3 ]
+```
+이 문제에서는 위 메서드들을 사용했다. 최대한 간결하게 코드를 작성했다고 생각했는데 아니었다.
 
-훨씬 더 짧게 코드를 작성한 사람도 있었다.
+더 짧게 코드를 작성한 사람도 있었다. 👇
 
 ```jsx
 function solution(numbers, direction) {
@@ -129,7 +141,33 @@ function solution(numbers, direction) {
     return numbers;
 }
 ```
-처음엔 위의 코드가 이해되지 않았지만, 하나씩 뜯어보며 천천히 분석했더니 이해가 되었다.
+처음엔 위의 코드가 이해되지 않았다.<br>
+`numbers.unshift(numbers.pop()) = [ 1, 2, 1, 2, 3 ]` 이라고 착각했기 때문이다.
 
+하지만 아니었다. 
+```jsx
+const plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
+
+console.log(plants.pop());
+// expected output: "tomato"
+
+console.log(plants);
+// expected output: Array ["broccoli", "cauliflower", "cabbage", "kale"]
+```
+<p style="color: gray">( 위는 <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/pop">MDN</a> 예시이다.
+역시 막힐 때는 MDN 문서를 보는 게 좋다😄 )</p>
+
+numbers.pop()을 했을 때 **numbers** 는 [ 1, 2 ] 가 되고,
+**numbers.pop()** 은 3 이 된다. 
+
+따라서 `numbers.unshift(numbers.pop()) = [ 3, 1, 2 ]` 가 되는 것이 맞다.
+이렇게 보면 더 확실하게 이해가 된다! 👇 
+```jsx
+numbers.unshift(numbers.pop()) = [ 1, 2 ].unshift(3)
+```
+
+MDN 문서를 보고 하나씩 분석했더니 이해가 잘 되었다.
+
+<br>
 
 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
