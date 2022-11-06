@@ -1,5 +1,5 @@
 ---
-title: "우테코 프리코스 2주차를 하면서"
+title: "promise를 공부하다"
 layout: post
 tags: JavaScript
 ---
