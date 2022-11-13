@@ -34,6 +34,8 @@ Seoul은 배열이므로 indexOf를 사용하면
 ["a", "b", "c", "d"].indexOf("c")  // 2
 ```
 
+<br>
+
 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
 <br>
 <br>
