@@ -74,5 +74,6 @@ index를 code-1 값으로 설정하고, index를 하나씩 더하는 게 아닌 
 이렇게 풀 수도 있구나! 모르는 메서드나 연산자는 없는데 이렇게 풀 생각은 못했다.
 다른 사람들의 코드를 분석하고 배우는 건 정말 재밌는 것 같다. 흥미롭다. 😊 
 
+출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
 <br>
 <br>
