@@ -10,6 +10,17 @@ promise를 사용하면 state(상태)는 잠시 대기(pending)되었다가 성�
 
 ![image](https://user-images.githubusercontent.com/108778921/200172096-6547e3a0-41bf-4fd9-a4d7-a361abb6eb73.png)
 
+
+
+
+
+
+
+
+
+
+
+
 ```jsx
 const promiseA = new Promise((resolutionFunc, rejectionFunc) => {
   resolutionFunc(777);
